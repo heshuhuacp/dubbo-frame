@@ -38,7 +38,6 @@
             </list>
         </property>
     </bean>
-
     <bean class="com.baidu.disconf.client.addons.properties.ReloadingPropertyPlaceholderConfigurer"
           id="propertyConfigurer">
         <property name="ignoreResourceNotFound" value="true"/>
@@ -50,6 +49,56 @@
         </property>
     </bean>
 
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+          destroy-method="close">
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="url" value="${jdbc.url}" />
+        <property name="username" value="${jdbc.username}" />
+        <property name="password" value="${jdbc.password}" />
+        <!-- 初始化连接大小 -->
+        <property name="initialSize" value="${jdbc.initialSize}"></property>
+        <!-- 连接池最大数量 -->
+        <property name="maxActive" value="${jdbc.maxActive}"></property>
+        <!-- 连接池最大空闲 -->
+        <property name="maxIdle" value="${jdbc.maxIdle}"></property>
+        <!-- 连接池最小空闲 -->
+        <property name="minIdle" value="${jdbc.minIdle}"></property>
+        <!-- 获取连接最大等待时间 -->
+        <property name="maxWait" value="${jdbc.maxWait}"></property>
+    </bean>
+
+    <!-- spring和MyBatis完美整合，不需要mybatis的配置映射文件 -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <!-- 自动扫描mapping.xml文件 -->
+        <property name="mapperLocations" value="classpath:mybatis/mapper/*Mapper.xml"/>
+        <property name="configLocation" value="classpath:mybatis/mybatis-config.xml" />
+    </bean>
+
+    <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate" destroy-method="close" scope="prototype">
+        <constructor-arg index="0" ref="sqlSessionFactory" />
+    </bean>
+
+    <!-- (事务管理)transaction manager, use JtaTransactionManager for global tx -->
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <!-- 引入配置文件 -->
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
+          id="defaultProperty">
+        <property name="locations">
+            <list>
+                <!--配置文件需要在spring采用占位符替换，则需要再次在这里加载配置-->
+                <value>classpath:jdbc.properties</value>
+                <!--<value>classpath:redis.properties</value>-->
+                <!--<value>classpath:kafka.properties</value>-->
+                <!--<value>classpath:dubbo.properties</value>-->
+                <!--<value>classpath:system.properties</value>-->
+            </list>
+        </property>
+    </bean>
 
 
 </beans>
