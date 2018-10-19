@@ -86,8 +86,10 @@
         <appender-ref ref="errorlog" />
     </appender>
 
+    <!--<logger name="com.alibaba.dubbo" level="DEBUG"/>-->
 
-    <root level="debug">
+
+    <root level="INFO">
         <appender-ref ref="console" />
         <appender-ref ref="debug" />
         <appender-ref ref="infolog_async" />

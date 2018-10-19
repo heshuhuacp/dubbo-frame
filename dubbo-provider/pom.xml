@@ -143,7 +143,11 @@
         </dependency>
 
         <!-- **************************** Dubbo 依赖 **************************** -->
-
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.3.3</version>
+        </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
@@ -156,6 +160,10 @@
                 <exclusion>
                     <groupId>log4j</groupId>
                     <artifactId>log4j</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.apache.httpcomponents</groupId>
+                    <artifactId>httpcore</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -217,7 +225,13 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <!-- **************************** /interface 依赖 **************************** -->
+        <!--disconf配置中心-->
 
+        <dependency>
+            <groupId>com.baidu.disconf</groupId>
+            <artifactId>disconf-client</artifactId>
+            <version>2.6.36</version>
+        </dependency>
     </dependencies>
 
 

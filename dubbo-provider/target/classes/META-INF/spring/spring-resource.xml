@@ -19,6 +19,37 @@
         </property>
     </bean>
 
+    <!-- 使用disconf必须添加以下配置 -->
+    <bean class="com.baidu.disconf.client.DisconfMgrBean" destroy-method="destroy"
+          id="disconfMgrBean">
+        <property name="scanPackage" value="com.sf"/>
+    </bean>
+    <bean class="com.baidu.disconf.client.DisconfMgrBeanSecond" destroy-method="destroy"
+          id="disconfMgrBean2" init-method="init">
+    </bean>
+
+    <!-- 使用托管方式的disconf配置(无代码侵入, 配置更改会自动reload),配置在这里会去配置中心下载对应的文件 -->
+    <bean class="com.baidu.disconf.client.addons.properties.ReloadablePropertiesFactoryBean"
+          id="configproperties_disconf">
+        <property name="locations">
+            <list>
+                <!--多个动态配置配置在这里-->
+                <value>classpath:system.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean class="com.baidu.disconf.client.addons.properties.ReloadingPropertyPlaceholderConfigurer"
+          id="propertyConfigurer">
+        <property name="ignoreResourceNotFound" value="true"/>
+        <property name="ignoreUnresolvablePlaceholders" value="true"/>
+        <property name="propertiesArray">
+            <list>
+                <ref bean="configproperties_disconf"/>
+            </list>
+        </property>
+    </bean>
+
 
 
 </beans>
