@@ -1,0 +1,739 @@
+2018-10-26 23:01:38.102 [main] INFO -c.a.d.c.l.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-10-26 23:01:38.220 [main] INFO -c.a.d.c.Main -  [DUBBO] Use container type([spring]) to run dubbo serivce., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:01:38.397 [main] INFO -o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@71d44a3: startup date [Fri Oct 26 23:01:38 CST 2018]; root of context hierarchy
+2018-10-26 23:01:38.500 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-consumer.xml]
+2018-10-26 23:01:38.669 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-provider.xml]
+2018-10-26 23:01:38.847 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-resource.xml]
+2018-10-26 23:01:39.203 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2018-10-26 23:01:41.328 [main] INFO -c.b.d.c.c.ConfigMgr - Finer print: HOMDA45LQD5E77N_0_b6705686-59ee-476d-a79b-0dcd019bc6c1
+2018-10-26 23:01:41.333 [main] INFO -c.b.d.c.c.u.ClassLoaderUtil - classpath: E:\workspace\dubbo-frame\dubbo-provider\target\classes
+2018-10-26 23:01:41.514 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:01:41.521 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:01:41.534 [DubboShutdownHook] INFO -c.a.d.c.AbstractConfig -  [DUBBO] Run shutdown hook now., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:01:41.536 [DubboShutdownHook] INFO -c.a.d.r.s.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:07:20.620 [main] INFO -c.a.d.c.l.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-10-26 23:07:20.752 [main] INFO -c.a.d.c.Main -  [DUBBO] Use container type([spring]) to run dubbo serivce., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:07:20.942 [main] INFO -o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7b98f307: startup date [Fri Oct 26 23:07:20 CST 2018]; root of context hierarchy
+2018-10-26 23:07:21.051 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-consumer.xml]
+2018-10-26 23:07:21.244 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-provider.xml]
+2018-10-26 23:07:21.413 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-resource.xml]
+2018-10-26 23:07:21.741 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2018-10-26 23:07:25.518 [main] INFO -c.b.d.c.c.ConfigMgr - Finer print: HOMDA45LQD5E77N_0_e3d6077b-9e32-4245-a1ad-c1c7662000db
+2018-10-26 23:07:25.524 [main] INFO -c.b.d.c.c.u.ClassLoaderUtil - classpath: E:\workspace\dubbo-frame\dubbo-provider\target\classes
+2018-10-26 23:07:25.549 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.conf_server_host: [127.0.0.1:8082]
+2018-10-26 23:07:25.549 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2018-10-26 23:07:25.549 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.app: disconf-test
+2018-10-26 23:07:25.550 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.env: rd
+2018-10-26 23:07:25.550 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2018-10-26 23:07:25.550 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.debug: false
+2018-10-26 23:07:25.550 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2018-10-26 23:07:25.551 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.ignore: []
+2018-10-26 23:07:25.551 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2018-10-26 23:07:25.551 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2018-10-26 23:07:27.962 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:07:28.097 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:07:28.120 [main] INFO -o.a.z.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2018-10-26 23:07:28.120 [main] INFO -o.a.z.ZooKeeper - Client environment:host.name=HOMDA45LQD5E77N
+2018-10-26 23:07:28.120 [main] INFO -o.a.z.ZooKeeper - Client environment:java.version=1.8.0_121
+2018-10-26 23:07:28.120 [main] INFO -o.a.z.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2018-10-26 23:07:28.121 [main] INFO -o.a.z.ZooKeeper - Client environment:java.home=E:\Java\jdk1.8.0_121\jre
+2018-10-26 23:07:28.121 [main] INFO -o.a.z.ZooKeeper - Client environment:java.class.path=E:\Java\jdk1.8.0_121\jre\lib\charsets.jar;E:\Java\jdk1.8.0_121\jre\lib\deploy.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\dnsns.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\jaccess.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\localedata.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\nashorn.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\sunec.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\zipfs.jar;E:\Java\jdk1.8.0_121\jre\lib\javaws.jar;E:\Java\jdk1.8.0_121\jre\lib\jce.jar;E:\Java\jdk1.8.0_121\jre\lib\jfr.jar;E:\Java\jdk1.8.0_121\jre\lib\jfxswt.jar;E:\Java\jdk1.8.0_121\jre\lib\jsse.jar;E:\Java\jdk1.8.0_121\jre\lib\management-agent.jar;E:\Java\jdk1.8.0_121\jre\lib\plugin.jar;E:\Java\jdk1.8.0_121\jre\lib\resources.jar;E:\Java\jdk1.8.0_121\jre\lib\rt.jar;E:\workspace\dubbo-frame\dubbo-provider\target\classes;E:\MavenBox\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;E:\MavenBox\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;E:\MavenBox\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;E:\MavenBox\org\slf4j\log4j-over-slf4j\1.7.7\log4j-over-slf4j-1.7.7.jar;E:\MavenBox\org\springframework\spring-core\4.1.6.RELEASE\spring-core-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-tx\4.1.6.RELEASE\spring-tx-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-orm\4.1.6.RELEASE\spring-orm-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-jdbc\4.1.6.RELEASE\spring-jdbc-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-web\4.1.6.RELEASE\spring-web-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-aop\4.1.6.RELEASE\spring-aop-4.1.6.RELEASE.jar;E:\MavenBox\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;E:\MavenBox\org\springframework\spring-context\4.1.6.RELEASE\spring-context-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-expression\4.1.6.RELEASE\spring-expression-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-beans\4.1.6.RELEASE\spring-beans-4.1.6.RELEASE.jar;E:\MavenBox\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;E:\MavenBox\org\aspectj\aspectjweaver\1.8.5\aspectjweaver-1.8.5.jar;E:\MavenBox\org\jboss\resteasy\resteasy-jaxrs\3.0.7.Final\resteasy-jaxrs-3.0.7.Final.jar;E:\MavenBox\org\jboss\resteasy\jaxrs-api\3.0.7.Final\jaxrs-api-3.0.7.Final.jar;E:\MavenBox\org\jboss\spec\javax\annotation\jboss-annotations-api_1.1_spec\1.0.1.Final\jboss-annotations-api_1.1_spec-1.0.1.Final.jar;E:\MavenBox\javax\activation\activation\1.1\activation-1.1.jar;E:\MavenBox\commons-io\commons-io\2.1\commons-io-2.1.jar;E:\MavenBox\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;E:\MavenBox\org\jboss\resteasy\resteasy-client\3.0.7.Final\resteasy-client-3.0.7.Final.jar;E:\MavenBox\org\jboss\resteasy\resteasy-jackson-provider\3.0.7.Final\resteasy-jackson-provider-3.0.7.Final.jar;E:\MavenBox\org\codehaus\jackson\jackson-core-asl\1.9.12\jackson-core-asl-1.9.12.jar;E:\MavenBox\org\codehaus\jackson\jackson-mapper-asl\1.9.12\jackson-mapper-asl-1.9.12.jar;E:\MavenBox\org\codehaus\jackson\jackson-jaxrs\1.9.12\jackson-jaxrs-1.9.12.jar;E:\MavenBox\org\codehaus\jackson\jackson-xc\1.9.12\jackson-xc-1.9.12.jar;E:\MavenBox\org\jboss\resteasy\resteasy-jaxb-provider\3.0.7.Final\resteasy-jaxb-provider-3.0.7.Final.jar;E:\MavenBox\com\sun\xml\bind\jaxb-impl\2.2.7\jaxb-impl-2.2.7.jar;E:\MavenBox\com\sun\xml\bind\jaxb-core\2.2.7\jaxb-core-2.2.7.jar;E:\MavenBox\javax\xml\bind\jaxb-api\2.2.7\jaxb-api-2.2.7.jar;E:\MavenBox\com\sun\istack\istack-commons-runtime\2.16\istack-commons-runtime-2.16.jar;E:\MavenBox\com\sun\xml\fastinfoset\FastInfoset\1.2.12\FastInfoset-1.2.12.jar;E:\MavenBox\javax\xml\bind\jsr173_api\1.0\jsr173_api-1.0.jar;E:\MavenBox\org\jboss\resteasy\resteasy-netty\3.0.7.Final\resteasy-netty-3.0.7.Final.jar;E:\MavenBox\io\netty\netty\3.6.4.Final\netty-3.6.4.Final.jar;E:\MavenBox\org\apache\tomcat\embed\tomcat-embed-core\8.0.33\tomcat-embed-core-8.0.33.jar;E:\MavenBox\org\apache\tomcat\embed\tomcat-embed-logging-juli\8.0.33\tomcat-embed-logging-juli-8.0.33.jar;E:\MavenBox\com\esotericsoftware\kryo\kryo\2.24.0\kryo-2.24.0.jar;E:\MavenBox\com\esotericsoftware\minlog\minlog\1.2\minlog-1.2.jar;E:\MavenBox\org\objenesis\objenesis\2.1\objenesis-2.1.jar;E:\MavenBox\de\javakaffee\kryo-serializers\0.26\kryo-serializers-0.26.jar;E:\MavenBox\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;E:\MavenBox\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;E:\MavenBox\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;E:\MavenBox\com\alibaba\dubbo\2.8.4\dubbo-2.8.4.jar;E:\MavenBox\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;E:\MavenBox\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;E:\MavenBox\jline\jline\0.9.94\jline-0.9.94.jar;E:\MavenBox\junit\junit\3.8.1\junit-3.8.1.jar;E:\MavenBox\com\github\sgroschupf\zkclient\0.1\zkclient-0.1.jar;E:\MavenBox\com\caucho\hessian\3.1.5\hessian-3.1.5.jar;E:\MavenBox\com\baidu\disconf\disconf-client\2.6.36\disconf-client-2.6.36.jar;E:\MavenBox\com\baidu\disconf\disconf-core\2.6.36\disconf-core-2.6.36.jar;E:\MavenBox\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;E:\MavenBox\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;E:\MavenBox\org\reflections\reflections\0.9.9-RC1\reflections-0.9.9-RC1.jar;E:\MavenBox\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;E:\MavenBox\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;E:\MavenBox\com\google\guava\guava\19.0-rc2\guava-19.0-rc2.jar;E:\MavenBox\org\aspectj\aspectjtools\1.7.4\aspectjtools-1.7.4.jar;E:\workspace\dubbo-frame\dubbo-interface\target\classes;E:\MavenBox\javax\ws\rs\javax.ws.rs-api\2.0\javax.ws.rs-api-2.0.jar;E:\MavenBox\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;E:\MavenBox\javax\validation\validation-api\1.0.0.GA\validation-api-1.0.0.GA.jar;E:\MavenBox\org\mybatis\mybatis-spring\1.3.2\mybatis-spring-1.3.2.jar;E:\MavenBox\org\mybatis\mybatis\3.4.6\mybatis-3.4.6.jar;E:\MavenBox\com\alibaba\druid\1.1.5\druid-1.1.5.jar;E:\MavenBox\mysql\mysql-connector-java\5.1.44\mysql-connector-java-5.1.44.jar;E:\JavaTools\ideaIC-2017.3.5.win\lib\idea_rt.jar;E:\JavaTools\ideaIC-2017.3.5.win\lib\rt\debugger-agent.jar
+2018-10-26 23:07:28.125 [main] INFO -o.a.z.ZooKeeper - Client environment:java.library.path=E:\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;.;E:\Java\jdk1.8.0_121/bin;E:\Java Tools\mysql-5.7.19-winx64\bin;E:\Java\apache-ant-1.9.9/bin;E:\Java Tools\apache-maven-3.5.0\bin;F:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\Program Files\Git\cmd;D:\Program Files\TortoiseGit\bin;E:\JavaTools\gradle-4.10-rc-2\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\Java\mysql-5.7.21-winx64\mysql-5.7.21-winx64\bin;E:\JavaTools\apache-maven-3.5.0\bin;.
+2018-10-26 23:07:28.125 [main] INFO -o.a.z.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2018-10-26 23:07:28.125 [main] INFO -o.a.z.ZooKeeper - Client environment:java.compiler=<NA>
+2018-10-26 23:07:28.125 [main] INFO -o.a.z.ZooKeeper - Client environment:os.name=Windows 7
+2018-10-26 23:07:28.126 [main] INFO -o.a.z.ZooKeeper - Client environment:os.arch=amd64
+2018-10-26 23:07:28.126 [main] INFO -o.a.z.ZooKeeper - Client environment:os.version=6.1
+2018-10-26 23:07:28.126 [main] INFO -o.a.z.ZooKeeper - Client environment:user.name=Administrator
+2018-10-26 23:07:28.126 [main] INFO -o.a.z.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+2018-10-26 23:07:28.126 [main] INFO -o.a.z.ZooKeeper - Client environment:user.dir=E:\workspace\dubbo-frame
+2018-10-26 23:07:28.127 [main] INFO -o.a.z.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 sessionTimeout=10000 watcher=com.baidu.disconf.core.common.zookeeper.inner.ResilientActiveKeyValueStore@63998bf4
+2018-10-26 23:07:28.178 [main-SendThread(127.0.0.1:2181)] INFO -o.a.z.ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-10-26 23:07:28.181 [main-SendThread(127.0.0.1:2181)] INFO -o.a.z.ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2018-10-26 23:07:28.200 [main-SendThread(127.0.0.1:2181)] INFO -o.a.z.ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1669c6472cf0009, negotiated timeout = 10000
+2018-10-26 23:07:28.203 [main-EventThread] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zk SyncConnected
+2018-10-26 23:07:28.204 [main] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zookeeper: 127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 , connected.
+2018-10-26 23:07:28.204 [main] INFO -c.b.d.c.c.z.ZookeeperMgr - zoo prefix: /disconf
+2018-10-26 23:07:28.232 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2018-10-26 23:07:28.639 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:07:28.648 [main] INFO -o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:07:29.045 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2018-10-26 23:07:29.051 [main] INFO -c.b.d.c.DisconfMgr - Conf File Map: 
+disconf-file:	jdbc.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	additionalKeyMaps={jdbc.password=root, jdbc.username=root, jdbc.url=jdbc:mysql://127.0.0.1:3306/disconf?useUnicode=true&amp;characterEncoding=utf8, jdbc.driver=com.mysql.jdbc.Driver}
+	cls=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf-test&env=rd&key=jdbc.properties&type=0]
+
+2018-10-26 23:07:29.052 [main] INFO -c.b.d.c.DisconfMgr - Conf Item Map: 
+
+2018-10-26 23:07:29.052 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END *******************************
+2018-10-26 23:07:29.949 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2018-10-26 23:07:29.997 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} closed
+2018-10-26 23:07:29.997 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:07:30.008 [main] INFO -o.a.z.ZooKeeper - Session: 0x1669c6472cf0009 closed
+2018-10-26 23:07:30.008 [main-EventThread] INFO -o.a.z.ClientCnxn - EventThread shut down
+2018-10-26 23:07:30.010 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:07:30.014 [DubboShutdownHook] INFO -c.a.d.c.AbstractConfig -  [DUBBO] Run shutdown hook now., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:07:30.017 [DubboShutdownHook] INFO -c.a.d.r.s.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:08:28.172 [main] INFO -c.a.d.c.l.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-10-26 23:08:28.311 [main] INFO -c.a.d.c.Main -  [DUBBO] Use container type([spring]) to run dubbo serivce., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:08:28.488 [main] INFO -o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7b98f307: startup date [Fri Oct 26 23:08:28 CST 2018]; root of context hierarchy
+2018-10-26 23:08:28.578 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-consumer.xml]
+2018-10-26 23:08:28.758 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-provider.xml]
+2018-10-26 23:08:29.012 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-resource.xml]
+2018-10-26 23:08:29.431 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2018-10-26 23:08:31.963 [main] INFO -c.b.d.c.c.ConfigMgr - Finer print: HOMDA45LQD5E77N_0_e6354021-f3c7-4c4e-b12b-b4c04b436ea2
+2018-10-26 23:08:31.968 [main] INFO -c.b.d.c.c.u.ClassLoaderUtil - classpath: E:\workspace\dubbo-frame\dubbo-provider\target\classes
+2018-10-26 23:08:31.987 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.conf_server_host: [127.0.0.1:8082]
+2018-10-26 23:08:31.987 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2018-10-26 23:08:31.987 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.app: disconf-test
+2018-10-26 23:08:31.988 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.env: rd
+2018-10-26 23:08:31.988 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2018-10-26 23:08:31.988 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.debug: false
+2018-10-26 23:08:31.988 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2018-10-26 23:08:31.988 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.ignore: []
+2018-10-26 23:08:31.989 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2018-10-26 23:08:31.989 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2018-10-26 23:08:34.191 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:08:34.309 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:08:34.326 [main] INFO -o.a.z.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2018-10-26 23:08:34.326 [main] INFO -o.a.z.ZooKeeper - Client environment:host.name=HOMDA45LQD5E77N
+2018-10-26 23:08:34.326 [main] INFO -o.a.z.ZooKeeper - Client environment:java.version=1.8.0_121
+2018-10-26 23:08:34.326 [main] INFO -o.a.z.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2018-10-26 23:08:34.327 [main] INFO -o.a.z.ZooKeeper - Client environment:java.home=E:\Java\jdk1.8.0_121\jre
+2018-10-26 23:08:34.327 [main] INFO -o.a.z.ZooKeeper - Client environment:java.class.path=E:\Java\jdk1.8.0_121\jre\lib\charsets.jar;E:\Java\jdk1.8.0_121\jre\lib\deploy.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\dnsns.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\jaccess.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\localedata.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\nashorn.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\sunec.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\zipfs.jar;E:\Java\jdk1.8.0_121\jre\lib\javaws.jar;E:\Java\jdk1.8.0_121\jre\lib\jce.jar;E:\Java\jdk1.8.0_121\jre\lib\jfr.jar;E:\Java\jdk1.8.0_121\jre\lib\jfxswt.jar;E:\Java\jdk1.8.0_121\jre\lib\jsse.jar;E:\Java\jdk1.8.0_121\jre\lib\management-agent.jar;E:\Java\jdk1.8.0_121\jre\lib\plugin.jar;E:\Java\jdk1.8.0_121\jre\lib\resources.jar;E:\Java\jdk1.8.0_121\jre\lib\rt.jar;E:\workspace\dubbo-frame\dubbo-provider\target\classes;E:\MavenBox\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;E:\MavenBox\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;E:\MavenBox\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;E:\MavenBox\org\slf4j\log4j-over-slf4j\1.7.7\log4j-over-slf4j-1.7.7.jar;E:\MavenBox\org\springframework\spring-core\4.1.6.RELEASE\spring-core-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-tx\4.1.6.RELEASE\spring-tx-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-orm\4.1.6.RELEASE\spring-orm-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-jdbc\4.1.6.RELEASE\spring-jdbc-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-web\4.1.6.RELEASE\spring-web-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-aop\4.1.6.RELEASE\spring-aop-4.1.6.RELEASE.jar;E:\MavenBox\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;E:\MavenBox\org\springframework\spring-context\4.1.6.RELEASE\spring-context-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-expression\4.1.6.RELEASE\spring-expression-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-beans\4.1.6.RELEASE\spring-beans-4.1.6.RELEASE.jar;E:\MavenBox\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;E:\MavenBox\org\aspectj\aspectjweaver\1.8.5\aspectjweaver-1.8.5.jar;E:\MavenBox\org\jboss\resteasy\resteasy-jaxrs\3.0.7.Final\resteasy-jaxrs-3.0.7.Final.jar;E:\MavenBox\org\jboss\resteasy\jaxrs-api\3.0.7.Final\jaxrs-api-3.0.7.Final.jar;E:\MavenBox\org\jboss\spec\javax\annotation\jboss-annotations-api_1.1_spec\1.0.1.Final\jboss-annotations-api_1.1_spec-1.0.1.Final.jar;E:\MavenBox\javax\activation\activation\1.1\activation-1.1.jar;E:\MavenBox\commons-io\commons-io\2.1\commons-io-2.1.jar;E:\MavenBox\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;E:\MavenBox\org\jboss\resteasy\resteasy-client\3.0.7.Final\resteasy-client-3.0.7.Final.jar;E:\MavenBox\org\jboss\resteasy\resteasy-jackson-provider\3.0.7.Final\resteasy-jackson-provider-3.0.7.Final.jar;E:\MavenBox\org\codehaus\jackson\jackson-core-asl\1.9.12\jackson-core-asl-1.9.12.jar;E:\MavenBox\org\codehaus\jackson\jackson-mapper-asl\1.9.12\jackson-mapper-asl-1.9.12.jar;E:\MavenBox\org\codehaus\jackson\jackson-jaxrs\1.9.12\jackson-jaxrs-1.9.12.jar;E:\MavenBox\org\codehaus\jackson\jackson-xc\1.9.12\jackson-xc-1.9.12.jar;E:\MavenBox\org\jboss\resteasy\resteasy-jaxb-provider\3.0.7.Final\resteasy-jaxb-provider-3.0.7.Final.jar;E:\MavenBox\com\sun\xml\bind\jaxb-impl\2.2.7\jaxb-impl-2.2.7.jar;E:\MavenBox\com\sun\xml\bind\jaxb-core\2.2.7\jaxb-core-2.2.7.jar;E:\MavenBox\javax\xml\bind\jaxb-api\2.2.7\jaxb-api-2.2.7.jar;E:\MavenBox\com\sun\istack\istack-commons-runtime\2.16\istack-commons-runtime-2.16.jar;E:\MavenBox\com\sun\xml\fastinfoset\FastInfoset\1.2.12\FastInfoset-1.2.12.jar;E:\MavenBox\javax\xml\bind\jsr173_api\1.0\jsr173_api-1.0.jar;E:\MavenBox\org\jboss\resteasy\resteasy-netty\3.0.7.Final\resteasy-netty-3.0.7.Final.jar;E:\MavenBox\io\netty\netty\3.6.4.Final\netty-3.6.4.Final.jar;E:\MavenBox\org\apache\tomcat\embed\tomcat-embed-core\8.0.33\tomcat-embed-core-8.0.33.jar;E:\MavenBox\org\apache\tomcat\embed\tomcat-embed-logging-juli\8.0.33\tomcat-embed-logging-juli-8.0.33.jar;E:\MavenBox\com\esotericsoftware\kryo\kryo\2.24.0\kryo-2.24.0.jar;E:\MavenBox\com\esotericsoftware\minlog\minlog\1.2\minlog-1.2.jar;E:\MavenBox\org\objenesis\objenesis\2.1\objenesis-2.1.jar;E:\MavenBox\de\javakaffee\kryo-serializers\0.26\kryo-serializers-0.26.jar;E:\MavenBox\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;E:\MavenBox\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;E:\MavenBox\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;E:\MavenBox\com\alibaba\dubbo\2.8.4\dubbo-2.8.4.jar;E:\MavenBox\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;E:\MavenBox\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;E:\MavenBox\jline\jline\0.9.94\jline-0.9.94.jar;E:\MavenBox\junit\junit\3.8.1\junit-3.8.1.jar;E:\MavenBox\com\github\sgroschupf\zkclient\0.1\zkclient-0.1.jar;E:\MavenBox\com\caucho\hessian\3.1.5\hessian-3.1.5.jar;E:\MavenBox\com\baidu\disconf\disconf-client\2.6.36\disconf-client-2.6.36.jar;E:\MavenBox\com\baidu\disconf\disconf-core\2.6.36\disconf-core-2.6.36.jar;E:\MavenBox\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;E:\MavenBox\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;E:\MavenBox\org\reflections\reflections\0.9.9-RC1\reflections-0.9.9-RC1.jar;E:\MavenBox\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;E:\MavenBox\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;E:\MavenBox\com\google\guava\guava\19.0-rc2\guava-19.0-rc2.jar;E:\MavenBox\org\aspectj\aspectjtools\1.7.4\aspectjtools-1.7.4.jar;E:\workspace\dubbo-frame\dubbo-interface\target\classes;E:\MavenBox\javax\ws\rs\javax.ws.rs-api\2.0\javax.ws.rs-api-2.0.jar;E:\MavenBox\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;E:\MavenBox\javax\validation\validation-api\1.0.0.GA\validation-api-1.0.0.GA.jar;E:\MavenBox\org\mybatis\mybatis-spring\1.3.2\mybatis-spring-1.3.2.jar;E:\MavenBox\org\mybatis\mybatis\3.4.6\mybatis-3.4.6.jar;E:\MavenBox\com\alibaba\druid\1.1.5\druid-1.1.5.jar;E:\MavenBox\mysql\mysql-connector-java\5.1.44\mysql-connector-java-5.1.44.jar;E:\JavaTools\ideaIC-2017.3.5.win\lib\idea_rt.jar;E:\JavaTools\ideaIC-2017.3.5.win\lib\rt\debugger-agent.jar
+2018-10-26 23:08:34.328 [main] INFO -o.a.z.ZooKeeper - Client environment:java.library.path=E:\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;.;E:\Java\jdk1.8.0_121/bin;E:\Java Tools\mysql-5.7.19-winx64\bin;E:\Java\apache-ant-1.9.9/bin;E:\Java Tools\apache-maven-3.5.0\bin;F:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\Program Files\Git\cmd;D:\Program Files\TortoiseGit\bin;E:\JavaTools\gradle-4.10-rc-2\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\Java\mysql-5.7.21-winx64\mysql-5.7.21-winx64\bin;E:\JavaTools\apache-maven-3.5.0\bin;.
+2018-10-26 23:08:34.328 [main] INFO -o.a.z.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2018-10-26 23:08:34.328 [main] INFO -o.a.z.ZooKeeper - Client environment:java.compiler=<NA>
+2018-10-26 23:08:34.329 [main] INFO -o.a.z.ZooKeeper - Client environment:os.name=Windows 7
+2018-10-26 23:08:34.329 [main] INFO -o.a.z.ZooKeeper - Client environment:os.arch=amd64
+2018-10-26 23:08:34.329 [main] INFO -o.a.z.ZooKeeper - Client environment:os.version=6.1
+2018-10-26 23:08:34.329 [main] INFO -o.a.z.ZooKeeper - Client environment:user.name=Administrator
+2018-10-26 23:08:34.329 [main] INFO -o.a.z.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+2018-10-26 23:08:34.329 [main] INFO -o.a.z.ZooKeeper - Client environment:user.dir=E:\workspace\dubbo-frame
+2018-10-26 23:08:34.330 [main] INFO -o.a.z.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 sessionTimeout=10000 watcher=com.baidu.disconf.core.common.zookeeper.inner.ResilientActiveKeyValueStore@3bd55d8
+2018-10-26 23:08:34.368 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:2182. Will not attempt to authenticate using SASL (unknown error)
+2018-10-26 23:08:34.370 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:2182, initiating session
+2018-10-26 23:08:34.387 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:2182, sessionid = 0x2669c6472e60006, negotiated timeout = 10000
+2018-10-26 23:08:34.390 [main-EventThread] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zk SyncConnected
+2018-10-26 23:08:34.390 [main] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zookeeper: 127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 , connected.
+2018-10-26 23:08:34.391 [main] INFO -c.b.d.c.c.z.ZookeeperMgr - zoo prefix: /disconf
+2018-10-26 23:08:34.408 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2018-10-26 23:08:34.744 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:08:34.753 [main] INFO -o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:08:35.026 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2018-10-26 23:08:35.031 [main] INFO -c.b.d.c.DisconfMgr - Conf File Map: 
+disconf-file:	jdbc.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	additionalKeyMaps={jdbc.password=root, jdbc.username=root, jdbc.url=jdbc:mysql://127.0.0.1:3306/disconf?useUnicode=true&amp;characterEncoding=utf8, jdbc.driver=com.mysql.jdbc.Driver}
+	cls=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf-test&env=rd&key=jdbc.properties&type=0]
+
+2018-10-26 23:08:35.031 [main] INFO -c.b.d.c.DisconfMgr - Conf Item Map: 
+
+2018-10-26 23:08:35.031 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END *******************************
+2018-10-26 23:08:35.686 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2018-10-26 23:08:35.727 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} closed
+2018-10-26 23:08:35.728 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:08:35.734 [main] INFO -o.a.z.ZooKeeper - Session: 0x2669c6472e60006 closed
+2018-10-26 23:08:35.734 [main-EventThread] INFO -o.a.z.ClientCnxn - EventThread shut down
+2018-10-26 23:08:35.735 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:08:35.743 [DubboShutdownHook] INFO -c.a.d.c.AbstractConfig -  [DUBBO] Run shutdown hook now., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:08:35.746 [DubboShutdownHook] INFO -c.a.d.r.s.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:20:25.739 [main] INFO -c.a.d.c.l.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-10-26 23:20:25.866 [main] INFO -c.a.d.c.Main -  [DUBBO] Use container type([spring]) to run dubbo serivce., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:20:26.035 [main] INFO -o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7b98f307: startup date [Fri Oct 26 23:20:26 CST 2018]; root of context hierarchy
+2018-10-26 23:20:26.123 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-consumer.xml]
+2018-10-26 23:20:26.299 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-provider.xml]
+2018-10-26 23:20:26.482 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-resource.xml]
+2018-10-26 23:20:26.847 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2018-10-26 23:20:28.987 [main] INFO -c.b.d.c.c.ConfigMgr - Finer print: HOMDA45LQD5E77N_0_7e85d94a-0451-4b63-9dd1-187b4be9adee
+2018-10-26 23:20:28.992 [main] INFO -c.b.d.c.c.u.ClassLoaderUtil - classpath: E:\workspace\dubbo-frame\dubbo-provider\target\classes
+2018-10-26 23:20:29.007 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.conf_server_host: [127.0.0.1:8082]
+2018-10-26 23:20:29.008 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2018-10-26 23:20:29.008 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.app: disconf-test
+2018-10-26 23:20:29.008 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.env: rd
+2018-10-26 23:20:29.008 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2018-10-26 23:20:29.008 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.debug: false
+2018-10-26 23:20:29.009 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2018-10-26 23:20:29.009 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.ignore: []
+2018-10-26 23:20:29.009 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2018-10-26 23:20:29.009 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2018-10-26 23:20:31.234 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:20:31.342 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:20:31.370 [main] INFO -o.a.z.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2018-10-26 23:20:31.370 [main] INFO -o.a.z.ZooKeeper - Client environment:host.name=HOMDA45LQD5E77N
+2018-10-26 23:20:31.370 [main] INFO -o.a.z.ZooKeeper - Client environment:java.version=1.8.0_121
+2018-10-26 23:20:31.370 [main] INFO -o.a.z.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2018-10-26 23:20:31.370 [main] INFO -o.a.z.ZooKeeper - Client environment:java.home=E:\Java\jdk1.8.0_121\jre
+2018-10-26 23:20:31.370 [main] INFO -o.a.z.ZooKeeper - Client environment:java.class.path=E:\Java\jdk1.8.0_121\jre\lib\charsets.jar;E:\Java\jdk1.8.0_121\jre\lib\deploy.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\dnsns.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\jaccess.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\localedata.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\nashorn.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\sunec.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\zipfs.jar;E:\Java\jdk1.8.0_121\jre\lib\javaws.jar;E:\Java\jdk1.8.0_121\jre\lib\jce.jar;E:\Java\jdk1.8.0_121\jre\lib\jfr.jar;E:\Java\jdk1.8.0_121\jre\lib\jfxswt.jar;E:\Java\jdk1.8.0_121\jre\lib\jsse.jar;E:\Java\jdk1.8.0_121\jre\lib\management-agent.jar;E:\Java\jdk1.8.0_121\jre\lib\plugin.jar;E:\Java\jdk1.8.0_121\jre\lib\resources.jar;E:\Java\jdk1.8.0_121\jre\lib\rt.jar;E:\workspace\dubbo-frame\dubbo-provider\target\classes;E:\MavenBox\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;E:\MavenBox\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;E:\MavenBox\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;E:\MavenBox\org\slf4j\log4j-over-slf4j\1.7.7\log4j-over-slf4j-1.7.7.jar;E:\MavenBox\org\springframework\spring-core\4.1.6.RELEASE\spring-core-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-tx\4.1.6.RELEASE\spring-tx-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-orm\4.1.6.RELEASE\spring-orm-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-jdbc\4.1.6.RELEASE\spring-jdbc-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-web\4.1.6.RELEASE\spring-web-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-aop\4.1.6.RELEASE\spring-aop-4.1.6.RELEASE.jar;E:\MavenBox\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;E:\MavenBox\org\springframework\spring-context\4.1.6.RELEASE\spring-context-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-expression\4.1.6.RELEASE\spring-expression-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-beans\4.1.6.RELEASE\spring-beans-4.1.6.RELEASE.jar;E:\MavenBox\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;E:\MavenBox\org\aspectj\aspectjweaver\1.8.5\aspectjweaver-1.8.5.jar;E:\MavenBox\org\jboss\resteasy\resteasy-jaxrs\3.0.7.Final\resteasy-jaxrs-3.0.7.Final.jar;E:\MavenBox\org\jboss\resteasy\jaxrs-api\3.0.7.Final\jaxrs-api-3.0.7.Final.jar;E:\MavenBox\org\jboss\spec\javax\annotation\jboss-annotations-api_1.1_spec\1.0.1.Final\jboss-annotations-api_1.1_spec-1.0.1.Final.jar;E:\MavenBox\javax\activation\activation\1.1\activation-1.1.jar;E:\MavenBox\commons-io\commons-io\2.1\commons-io-2.1.jar;E:\MavenBox\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;E:\MavenBox\org\jboss\resteasy\resteasy-client\3.0.7.Final\resteasy-client-3.0.7.Final.jar;E:\MavenBox\org\jboss\resteasy\resteasy-jackson-provider\3.0.7.Final\resteasy-jackson-provider-3.0.7.Final.jar;E:\MavenBox\org\codehaus\jackson\jackson-core-asl\1.9.12\jackson-core-asl-1.9.12.jar;E:\MavenBox\org\codehaus\jackson\jackson-mapper-asl\1.9.12\jackson-mapper-asl-1.9.12.jar;E:\MavenBox\org\codehaus\jackson\jackson-jaxrs\1.9.12\jackson-jaxrs-1.9.12.jar;E:\MavenBox\org\codehaus\jackson\jackson-xc\1.9.12\jackson-xc-1.9.12.jar;E:\MavenBox\org\jboss\resteasy\resteasy-jaxb-provider\3.0.7.Final\resteasy-jaxb-provider-3.0.7.Final.jar;E:\MavenBox\com\sun\xml\bind\jaxb-impl\2.2.7\jaxb-impl-2.2.7.jar;E:\MavenBox\com\sun\xml\bind\jaxb-core\2.2.7\jaxb-core-2.2.7.jar;E:\MavenBox\javax\xml\bind\jaxb-api\2.2.7\jaxb-api-2.2.7.jar;E:\MavenBox\com\sun\istack\istack-commons-runtime\2.16\istack-commons-runtime-2.16.jar;E:\MavenBox\com\sun\xml\fastinfoset\FastInfoset\1.2.12\FastInfoset-1.2.12.jar;E:\MavenBox\javax\xml\bind\jsr173_api\1.0\jsr173_api-1.0.jar;E:\MavenBox\org\jboss\resteasy\resteasy-netty\3.0.7.Final\resteasy-netty-3.0.7.Final.jar;E:\MavenBox\io\netty\netty\3.6.4.Final\netty-3.6.4.Final.jar;E:\MavenBox\org\apache\tomcat\embed\tomcat-embed-core\8.0.33\tomcat-embed-core-8.0.33.jar;E:\MavenBox\org\apache\tomcat\embed\tomcat-embed-logging-juli\8.0.33\tomcat-embed-logging-juli-8.0.33.jar;E:\MavenBox\com\esotericsoftware\kryo\kryo\2.24.0\kryo-2.24.0.jar;E:\MavenBox\com\esotericsoftware\minlog\minlog\1.2\minlog-1.2.jar;E:\MavenBox\org\objenesis\objenesis\2.1\objenesis-2.1.jar;E:\MavenBox\de\javakaffee\kryo-serializers\0.26\kryo-serializers-0.26.jar;E:\MavenBox\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;E:\MavenBox\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;E:\MavenBox\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;E:\MavenBox\com\alibaba\dubbo\2.8.4\dubbo-2.8.4.jar;E:\MavenBox\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;E:\MavenBox\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;E:\MavenBox\jline\jline\0.9.94\jline-0.9.94.jar;E:\MavenBox\junit\junit\3.8.1\junit-3.8.1.jar;E:\MavenBox\com\github\sgroschupf\zkclient\0.1\zkclient-0.1.jar;E:\MavenBox\com\caucho\hessian\3.1.5\hessian-3.1.5.jar;E:\MavenBox\com\baidu\disconf\disconf-client\2.6.36\disconf-client-2.6.36.jar;E:\MavenBox\com\baidu\disconf\disconf-core\2.6.36\disconf-core-2.6.36.jar;E:\MavenBox\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;E:\MavenBox\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;E:\MavenBox\org\reflections\reflections\0.9.9-RC1\reflections-0.9.9-RC1.jar;E:\MavenBox\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;E:\MavenBox\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;E:\MavenBox\com\google\guava\guava\19.0-rc2\guava-19.0-rc2.jar;E:\MavenBox\org\aspectj\aspectjtools\1.7.4\aspectjtools-1.7.4.jar;E:\workspace\dubbo-frame\dubbo-interface\target\classes;E:\MavenBox\javax\ws\rs\javax.ws.rs-api\2.0\javax.ws.rs-api-2.0.jar;E:\MavenBox\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;E:\MavenBox\javax\validation\validation-api\1.0.0.GA\validation-api-1.0.0.GA.jar;E:\MavenBox\org\mybatis\mybatis-spring\1.3.2\mybatis-spring-1.3.2.jar;E:\MavenBox\org\mybatis\mybatis\3.4.6\mybatis-3.4.6.jar;E:\MavenBox\com\alibaba\druid\1.1.5\druid-1.1.5.jar;E:\MavenBox\mysql\mysql-connector-java\5.1.44\mysql-connector-java-5.1.44.jar;E:\JavaTools\ideaIC-2017.3.5.win\lib\idea_rt.jar;E:\JavaTools\ideaIC-2017.3.5.win\lib\rt\debugger-agent.jar
+2018-10-26 23:20:31.373 [main] INFO -o.a.z.ZooKeeper - Client environment:java.library.path=E:\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;.;E:\Java\jdk1.8.0_121/bin;E:\Java Tools\mysql-5.7.19-winx64\bin;E:\Java\apache-ant-1.9.9/bin;E:\Java Tools\apache-maven-3.5.0\bin;F:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\Program Files\Git\cmd;D:\Program Files\TortoiseGit\bin;E:\JavaTools\gradle-4.10-rc-2\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\Java\mysql-5.7.21-winx64\mysql-5.7.21-winx64\bin;E:\JavaTools\apache-maven-3.5.0\bin;.
+2018-10-26 23:20:31.373 [main] INFO -o.a.z.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2018-10-26 23:20:31.373 [main] INFO -o.a.z.ZooKeeper - Client environment:java.compiler=<NA>
+2018-10-26 23:20:31.373 [main] INFO -o.a.z.ZooKeeper - Client environment:os.name=Windows 7
+2018-10-26 23:20:31.374 [main] INFO -o.a.z.ZooKeeper - Client environment:os.arch=amd64
+2018-10-26 23:20:31.374 [main] INFO -o.a.z.ZooKeeper - Client environment:os.version=6.1
+2018-10-26 23:20:31.374 [main] INFO -o.a.z.ZooKeeper - Client environment:user.name=Administrator
+2018-10-26 23:20:31.374 [main] INFO -o.a.z.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+2018-10-26 23:20:31.374 [main] INFO -o.a.z.ZooKeeper - Client environment:user.dir=E:\workspace\dubbo-frame
+2018-10-26 23:20:31.376 [main] INFO -o.a.z.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 sessionTimeout=10000 watcher=com.baidu.disconf.core.common.zookeeper.inner.ResilientActiveKeyValueStore@63998bf4
+2018-10-26 23:20:31.429 [main-SendThread(127.0.0.1:2181)] INFO -o.a.z.ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-10-26 23:20:31.431 [main-SendThread(127.0.0.1:2181)] INFO -o.a.z.ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2018-10-26 23:20:31.449 [main-SendThread(127.0.0.1:2181)] INFO -o.a.z.ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1669c6472cf000a, negotiated timeout = 10000
+2018-10-26 23:20:31.453 [main-EventThread] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zk SyncConnected
+2018-10-26 23:20:31.453 [main] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zookeeper: 127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 , connected.
+2018-10-26 23:20:31.453 [main] INFO -c.b.d.c.c.z.ZookeeperMgr - zoo prefix: /disconf
+2018-10-26 23:20:31.469 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2018-10-26 23:20:31.798 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:20:31.807 [main] INFO -o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:20:32.116 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2018-10-26 23:20:32.122 [main] INFO -c.b.d.c.DisconfMgr - Conf File Map: 
+disconf-file:	jdbc.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	additionalKeyMaps={jdbc.password=root, jdbc.username=root, jdbc.url=jdbc:mysql://127.0.0.1:3306/disconf?useUnicode=true&amp;characterEncoding=utf8, jdbc.driver=com.mysql.jdbc.Driver}
+	cls=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf-test&env=rd&key=jdbc.properties&type=0]
+
+2018-10-26 23:20:32.122 [main] INFO -c.b.d.c.DisconfMgr - Conf Item Map: 
+
+2018-10-26 23:20:32.122 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END *******************************
+2018-10-26 23:20:32.977 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2018-10-26 23:20:33.046 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} closed
+2018-10-26 23:20:33.047 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:20:33.055 [main] INFO -o.a.z.ZooKeeper - Session: 0x1669c6472cf000a closed
+2018-10-26 23:20:33.058 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:20:33.058 [main-EventThread] INFO -o.a.z.ClientCnxn - EventThread shut down
+2018-10-26 23:20:33.066 [DubboShutdownHook] INFO -c.a.d.c.AbstractConfig -  [DUBBO] Run shutdown hook now., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:20:33.070 [DubboShutdownHook] INFO -c.a.d.r.s.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:21:47.086 [main] INFO -c.a.d.c.l.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-10-26 23:21:47.211 [main] INFO -c.a.d.c.Main -  [DUBBO] Use container type([spring]) to run dubbo serivce., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:21:47.393 [main] INFO -o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7b98f307: startup date [Fri Oct 26 23:21:47 CST 2018]; root of context hierarchy
+2018-10-26 23:21:47.499 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-consumer.xml]
+2018-10-26 23:21:47.665 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-provider.xml]
+2018-10-26 23:21:47.848 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-resource.xml]
+2018-10-26 23:21:48.180 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2018-10-26 23:21:50.360 [main] INFO -c.b.d.c.c.ConfigMgr - Finer print: HOMDA45LQD5E77N_0_1b0eb23e-d103-4282-8d08-533f3c82f9b2
+2018-10-26 23:21:50.367 [main] INFO -c.b.d.c.c.u.ClassLoaderUtil - classpath: E:\workspace\dubbo-frame\dubbo-provider\target\classes
+2018-10-26 23:21:50.388 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.conf_server_host: [127.0.0.1:8082]
+2018-10-26 23:21:50.388 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2018-10-26 23:21:50.388 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.app: disconf-test
+2018-10-26 23:21:50.388 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.env: rd
+2018-10-26 23:21:50.389 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2018-10-26 23:21:50.389 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.debug: false
+2018-10-26 23:21:50.389 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2018-10-26 23:21:50.390 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.ignore: []
+2018-10-26 23:21:50.390 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2018-10-26 23:21:50.390 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2018-10-26 23:21:52.954 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:21:53.055 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:21:53.075 [main] INFO -o.a.z.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2018-10-26 23:21:53.076 [main] INFO -o.a.z.ZooKeeper - Client environment:host.name=HOMDA45LQD5E77N
+2018-10-26 23:21:53.076 [main] INFO -o.a.z.ZooKeeper - Client environment:java.version=1.8.0_121
+2018-10-26 23:21:53.076 [main] INFO -o.a.z.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2018-10-26 23:21:53.076 [main] INFO -o.a.z.ZooKeeper - Client environment:java.home=E:\Java\jdk1.8.0_121\jre
+2018-10-26 23:21:53.076 [main] INFO -o.a.z.ZooKeeper - Client environment:java.class.path=E:\Java\jdk1.8.0_121\jre\lib\charsets.jar;E:\Java\jdk1.8.0_121\jre\lib\deploy.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\dnsns.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\jaccess.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\localedata.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\nashorn.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\sunec.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;E:\Java\jdk1.8.0_121\jre\lib\ext\zipfs.jar;E:\Java\jdk1.8.0_121\jre\lib\javaws.jar;E:\Java\jdk1.8.0_121\jre\lib\jce.jar;E:\Java\jdk1.8.0_121\jre\lib\jfr.jar;E:\Java\jdk1.8.0_121\jre\lib\jfxswt.jar;E:\Java\jdk1.8.0_121\jre\lib\jsse.jar;E:\Java\jdk1.8.0_121\jre\lib\management-agent.jar;E:\Java\jdk1.8.0_121\jre\lib\plugin.jar;E:\Java\jdk1.8.0_121\jre\lib\resources.jar;E:\Java\jdk1.8.0_121\jre\lib\rt.jar;E:\workspace\dubbo-frame\dubbo-provider\target\classes;E:\MavenBox\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;E:\MavenBox\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;E:\MavenBox\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;E:\MavenBox\org\slf4j\log4j-over-slf4j\1.7.7\log4j-over-slf4j-1.7.7.jar;E:\MavenBox\org\springframework\spring-core\4.1.6.RELEASE\spring-core-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-tx\4.1.6.RELEASE\spring-tx-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-orm\4.1.6.RELEASE\spring-orm-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-jdbc\4.1.6.RELEASE\spring-jdbc-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-web\4.1.6.RELEASE\spring-web-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-aop\4.1.6.RELEASE\spring-aop-4.1.6.RELEASE.jar;E:\MavenBox\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;E:\MavenBox\org\springframework\spring-context\4.1.6.RELEASE\spring-context-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-expression\4.1.6.RELEASE\spring-expression-4.1.6.RELEASE.jar;E:\MavenBox\org\springframework\spring-beans\4.1.6.RELEASE\spring-beans-4.1.6.RELEASE.jar;E:\MavenBox\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;E:\MavenBox\org\aspectj\aspectjweaver\1.8.5\aspectjweaver-1.8.5.jar;E:\MavenBox\org\jboss\resteasy\resteasy-jaxrs\3.0.7.Final\resteasy-jaxrs-3.0.7.Final.jar;E:\MavenBox\org\jboss\resteasy\jaxrs-api\3.0.7.Final\jaxrs-api-3.0.7.Final.jar;E:\MavenBox\org\jboss\spec\javax\annotation\jboss-annotations-api_1.1_spec\1.0.1.Final\jboss-annotations-api_1.1_spec-1.0.1.Final.jar;E:\MavenBox\javax\activation\activation\1.1\activation-1.1.jar;E:\MavenBox\commons-io\commons-io\2.1\commons-io-2.1.jar;E:\MavenBox\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;E:\MavenBox\org\jboss\resteasy\resteasy-client\3.0.7.Final\resteasy-client-3.0.7.Final.jar;E:\MavenBox\org\jboss\resteasy\resteasy-jackson-provider\3.0.7.Final\resteasy-jackson-provider-3.0.7.Final.jar;E:\MavenBox\org\codehaus\jackson\jackson-core-asl\1.9.12\jackson-core-asl-1.9.12.jar;E:\MavenBox\org\codehaus\jackson\jackson-mapper-asl\1.9.12\jackson-mapper-asl-1.9.12.jar;E:\MavenBox\org\codehaus\jackson\jackson-jaxrs\1.9.12\jackson-jaxrs-1.9.12.jar;E:\MavenBox\org\codehaus\jackson\jackson-xc\1.9.12\jackson-xc-1.9.12.jar;E:\MavenBox\org\jboss\resteasy\resteasy-jaxb-provider\3.0.7.Final\resteasy-jaxb-provider-3.0.7.Final.jar;E:\MavenBox\com\sun\xml\bind\jaxb-impl\2.2.7\jaxb-impl-2.2.7.jar;E:\MavenBox\com\sun\xml\bind\jaxb-core\2.2.7\jaxb-core-2.2.7.jar;E:\MavenBox\javax\xml\bind\jaxb-api\2.2.7\jaxb-api-2.2.7.jar;E:\MavenBox\com\sun\istack\istack-commons-runtime\2.16\istack-commons-runtime-2.16.jar;E:\MavenBox\com\sun\xml\fastinfoset\FastInfoset\1.2.12\FastInfoset-1.2.12.jar;E:\MavenBox\javax\xml\bind\jsr173_api\1.0\jsr173_api-1.0.jar;E:\MavenBox\org\jboss\resteasy\resteasy-netty\3.0.7.Final\resteasy-netty-3.0.7.Final.jar;E:\MavenBox\io\netty\netty\3.6.4.Final\netty-3.6.4.Final.jar;E:\MavenBox\org\apache\tomcat\embed\tomcat-embed-core\8.0.33\tomcat-embed-core-8.0.33.jar;E:\MavenBox\org\apache\tomcat\embed\tomcat-embed-logging-juli\8.0.33\tomcat-embed-logging-juli-8.0.33.jar;E:\MavenBox\com\esotericsoftware\kryo\kryo\2.24.0\kryo-2.24.0.jar;E:\MavenBox\com\esotericsoftware\minlog\minlog\1.2\minlog-1.2.jar;E:\MavenBox\org\objenesis\objenesis\2.1\objenesis-2.1.jar;E:\MavenBox\de\javakaffee\kryo-serializers\0.26\kryo-serializers-0.26.jar;E:\MavenBox\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;E:\MavenBox\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;E:\MavenBox\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;E:\MavenBox\com\alibaba\dubbo\2.8.4\dubbo-2.8.4.jar;E:\MavenBox\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;E:\MavenBox\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;E:\MavenBox\jline\jline\0.9.94\jline-0.9.94.jar;E:\MavenBox\junit\junit\3.8.1\junit-3.8.1.jar;E:\MavenBox\com\github\sgroschupf\zkclient\0.1\zkclient-0.1.jar;E:\MavenBox\com\caucho\hessian\3.1.5\hessian-3.1.5.jar;E:\MavenBox\com\baidu\disconf\disconf-client\2.6.36\disconf-client-2.6.36.jar;E:\MavenBox\com\baidu\disconf\disconf-core\2.6.36\disconf-core-2.6.36.jar;E:\MavenBox\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;E:\MavenBox\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;E:\MavenBox\org\reflections\reflections\0.9.9-RC1\reflections-0.9.9-RC1.jar;E:\MavenBox\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;E:\MavenBox\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;E:\MavenBox\com\google\guava\guava\19.0-rc2\guava-19.0-rc2.jar;E:\MavenBox\org\aspectj\aspectjtools\1.7.4\aspectjtools-1.7.4.jar;E:\workspace\dubbo-frame\dubbo-interface\target\classes;E:\MavenBox\javax\ws\rs\javax.ws.rs-api\2.0\javax.ws.rs-api-2.0.jar;E:\MavenBox\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;E:\MavenBox\javax\validation\validation-api\1.0.0.GA\validation-api-1.0.0.GA.jar;E:\MavenBox\org\mybatis\mybatis-spring\1.3.2\mybatis-spring-1.3.2.jar;E:\MavenBox\org\mybatis\mybatis\3.4.6\mybatis-3.4.6.jar;E:\MavenBox\com\alibaba\druid\1.1.5\druid-1.1.5.jar;E:\MavenBox\mysql\mysql-connector-java\5.1.44\mysql-connector-java-5.1.44.jar;E:\JavaTools\ideaIC-2017.3.5.win\lib\idea_rt.jar;E:\JavaTools\ideaIC-2017.3.5.win\lib\rt\debugger-agent.jar
+2018-10-26 23:21:53.077 [main] INFO -o.a.z.ZooKeeper - Client environment:java.library.path=E:\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;.;E:\Java\jdk1.8.0_121/bin;E:\Java Tools\mysql-5.7.19-winx64\bin;E:\Java\apache-ant-1.9.9/bin;E:\Java Tools\apache-maven-3.5.0\bin;F:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\Program Files\Git\cmd;D:\Program Files\TortoiseGit\bin;E:\JavaTools\gradle-4.10-rc-2\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\Java\mysql-5.7.21-winx64\mysql-5.7.21-winx64\bin;E:\JavaTools\apache-maven-3.5.0\bin;.
+2018-10-26 23:21:53.077 [main] INFO -o.a.z.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2018-10-26 23:21:53.077 [main] INFO -o.a.z.ZooKeeper - Client environment:java.compiler=<NA>
+2018-10-26 23:21:53.077 [main] INFO -o.a.z.ZooKeeper - Client environment:os.name=Windows 7
+2018-10-26 23:21:53.078 [main] INFO -o.a.z.ZooKeeper - Client environment:os.arch=amd64
+2018-10-26 23:21:53.078 [main] INFO -o.a.z.ZooKeeper - Client environment:os.version=6.1
+2018-10-26 23:21:53.078 [main] INFO -o.a.z.ZooKeeper - Client environment:user.name=Administrator
+2018-10-26 23:21:53.078 [main] INFO -o.a.z.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+2018-10-26 23:21:53.078 [main] INFO -o.a.z.ZooKeeper - Client environment:user.dir=E:\workspace\dubbo-frame
+2018-10-26 23:21:53.080 [main] INFO -o.a.z.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 sessionTimeout=10000 watcher=com.baidu.disconf.core.common.zookeeper.inner.ResilientActiveKeyValueStore@63998bf4
+2018-10-26 23:21:53.121 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:2182. Will not attempt to authenticate using SASL (unknown error)
+2018-10-26 23:21:53.123 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:2182, initiating session
+2018-10-26 23:21:53.134 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:2182, sessionid = 0x2669c6472e60007, negotiated timeout = 10000
+2018-10-26 23:21:53.138 [main-EventThread] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zk SyncConnected
+2018-10-26 23:21:53.139 [main] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zookeeper: 127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 , connected.
+2018-10-26 23:21:53.139 [main] INFO -c.b.d.c.c.z.ZookeeperMgr - zoo prefix: /disconf
+2018-10-26 23:21:53.151 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2018-10-26 23:21:53.544 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:21:53.554 [main] INFO -o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:21:53.886 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2018-10-26 23:21:53.892 [main] INFO -c.b.d.c.DisconfMgr - Conf File Map: 
+disconf-file:	jdbc.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	additionalKeyMaps={jdbc.password=root, jdbc.username=root, jdbc.url=jdbc:mysql://127.0.0.1:3306/disconf?useUnicode=true&amp;characterEncoding=utf8, jdbc.driver=com.mysql.jdbc.Driver}
+	cls=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf-test&env=rd&key=jdbc.properties&type=0]
+
+2018-10-26 23:21:53.892 [main] INFO -c.b.d.c.DisconfMgr - Conf Item Map: 
+
+2018-10-26 23:21:53.892 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END *******************************
+2018-10-26 23:21:54.765 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2018-10-26 23:21:54.813 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} closed
+2018-10-26 23:21:54.814 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:21:54.821 [main] INFO -o.a.z.ZooKeeper - Session: 0x2669c6472e60007 closed
+2018-10-26 23:21:54.822 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:21:54.825 [main-EventThread] INFO -o.a.z.ClientCnxn - EventThread shut down
+2018-10-26 23:21:54.830 [DubboShutdownHook] INFO -c.a.d.c.AbstractConfig -  [DUBBO] Run shutdown hook now., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:21:54.834 [DubboShutdownHook] INFO -c.a.d.r.s.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:30:04.152 [main] INFO -c.a.d.c.l.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-10-26 23:30:04.272 [main] INFO -c.a.d.c.Main -  [DUBBO] Use container type([spring]) to run dubbo serivce., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:30:04.465 [main] INFO -o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@65fb9ffc: startup date [Fri Oct 26 23:30:04 CST 2018]; root of context hierarchy
+2018-10-26 23:30:04.540 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-consumer.xml]
+2018-10-26 23:30:04.691 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-provider.xml]
+2018-10-26 23:30:04.871 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-resource.xml]
+2018-10-26 23:30:05.165 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2018-10-26 23:30:07.082 [main] INFO -c.b.d.c.c.ConfigMgr - Finer print: HOMDA45LQD5E77N_0_73d7987b-cd4d-4613-9374-1e3f7dc88153
+2018-10-26 23:30:07.088 [main] INFO -c.b.d.c.c.u.ClassLoaderUtil - classpath: E:\workspace\dubbo-frame\dubbo-provider\target\classes
+2018-10-26 23:30:07.106 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.conf_server_host: [127.0.0.1:8082]
+2018-10-26 23:30:07.106 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2018-10-26 23:30:07.106 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.app: disconf-test
+2018-10-26 23:30:07.106 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.env: rd
+2018-10-26 23:30:07.107 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2018-10-26 23:30:07.107 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.debug: false
+2018-10-26 23:30:07.107 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2018-10-26 23:30:07.108 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.ignore: []
+2018-10-26 23:30:07.108 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2018-10-26 23:30:07.108 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2018-10-26 23:30:09.249 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:30:09.361 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:30:09.376 [main] INFO -o.a.z.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2018-10-26 23:30:09.377 [main] INFO -o.a.z.ZooKeeper - Client environment:host.name=HOMDA45LQD5E77N
+2018-10-26 23:30:09.377 [main] INFO -o.a.z.ZooKeeper - Client environment:java.version=1.8.0_121
+2018-10-26 23:30:09.377 [main] INFO -o.a.z.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2018-10-26 23:30:09.377 [main] INFO -o.a.z.ZooKeeper - Client environment:java.home=E:\Java\jdk1.8.0_121\jre
+2018-10-26 23:30:09.377 [main] INFO -o.a.z.ZooKeeper - Client environment:java.class.path=C:\Users\Administrator\AppData\Local\Temp\classpath.jar;E:\JavaTools\ideaIC-2017.3.5.win\lib\rt\debugger-agent.jar
+2018-10-26 23:30:09.377 [main] INFO -o.a.z.ZooKeeper - Client environment:java.library.path=E:\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;.;E:\Java\jdk1.8.0_121/bin;E:\Java Tools\mysql-5.7.19-winx64\bin;E:\Java\apache-ant-1.9.9/bin;E:\Java Tools\apache-maven-3.5.0\bin;F:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\Program Files\Git\cmd;D:\Program Files\TortoiseGit\bin;E:\JavaTools\gradle-4.10-rc-2\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\Java\mysql-5.7.21-winx64\mysql-5.7.21-winx64\bin;E:\JavaTools\apache-maven-3.5.0\bin;.
+2018-10-26 23:30:09.377 [main] INFO -o.a.z.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2018-10-26 23:30:09.377 [main] INFO -o.a.z.ZooKeeper - Client environment:java.compiler=<NA>
+2018-10-26 23:30:09.377 [main] INFO -o.a.z.ZooKeeper - Client environment:os.name=Windows 7
+2018-10-26 23:30:09.378 [main] INFO -o.a.z.ZooKeeper - Client environment:os.arch=amd64
+2018-10-26 23:30:09.378 [main] INFO -o.a.z.ZooKeeper - Client environment:os.version=6.1
+2018-10-26 23:30:09.378 [main] INFO -o.a.z.ZooKeeper - Client environment:user.name=Administrator
+2018-10-26 23:30:09.378 [main] INFO -o.a.z.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+2018-10-26 23:30:09.378 [main] INFO -o.a.z.ZooKeeper - Client environment:user.dir=E:\workspace\dubbo-frame
+2018-10-26 23:30:09.379 [main] INFO -o.a.z.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 sessionTimeout=10000 watcher=com.baidu.disconf.core.common.zookeeper.inner.ResilientActiveKeyValueStore@6f63c44f
+2018-10-26 23:30:09.420 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:2182. Will not attempt to authenticate using SASL (unknown error)
+2018-10-26 23:30:09.422 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:2182, initiating session
+2018-10-26 23:30:09.433 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:2182, sessionid = 0x2669c6472e60008, negotiated timeout = 10000
+2018-10-26 23:30:09.436 [main-EventThread] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zk SyncConnected
+2018-10-26 23:30:09.436 [main] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zookeeper: 127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 , connected.
+2018-10-26 23:30:09.437 [main] INFO -c.b.d.c.c.z.ZookeeperMgr - zoo prefix: /disconf
+2018-10-26 23:30:09.449 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2018-10-26 23:30:09.763 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:30:09.773 [main] INFO -o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:30:10.072 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2018-10-26 23:30:10.076 [main] INFO -c.b.d.c.DisconfMgr - Conf File Map: 
+disconf-file:	jdbc.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	additionalKeyMaps={jdbc.password=root, jdbc.username=root, jdbc.url=jdbc:mysql://127.0.0.1:3306/disconf?useUnicode=true&amp;characterEncoding=utf8, jdbc.driver=com.mysql.jdbc.Driver}
+	cls=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf-test&env=rd&key=jdbc.properties&type=0]
+
+2018-10-26 23:30:10.077 [main] INFO -c.b.d.c.DisconfMgr - Conf Item Map: 
+
+2018-10-26 23:30:10.077 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END *******************************
+2018-10-26 23:30:10.705 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2018-10-26 23:30:10.741 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} closed
+2018-10-26 23:30:10.742 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:30:10.750 [main-EventThread] INFO -o.a.z.ClientCnxn - EventThread shut down
+2018-10-26 23:30:10.750 [main] INFO -o.a.z.ZooKeeper - Session: 0x2669c6472e60008 closed
+2018-10-26 23:30:10.751 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:30:10.755 [DubboShutdownHook] INFO -c.a.d.c.AbstractConfig -  [DUBBO] Run shutdown hook now., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:30:10.763 [DubboShutdownHook] INFO -c.a.d.r.s.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:34:59.747 [main] INFO -c.a.d.c.l.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-10-26 23:34:59.854 [main] INFO -c.a.d.c.Main -  [DUBBO] Use container type([spring]) to run dubbo serivce., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:35:00.019 [main] INFO -o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@65fb9ffc: startup date [Fri Oct 26 23:35:00 CST 2018]; root of context hierarchy
+2018-10-26 23:35:00.091 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-consumer.xml]
+2018-10-26 23:35:00.239 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-provider.xml]
+2018-10-26 23:35:00.425 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-resource.xml]
+2018-10-26 23:35:00.760 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2018-10-26 23:35:02.738 [main] INFO -c.b.d.c.c.ConfigMgr - Finer print: HOMDA45LQD5E77N_0_92792471-0b0e-4268-921b-b833c88f9522
+2018-10-26 23:35:02.743 [main] INFO -c.b.d.c.c.u.ClassLoaderUtil - classpath: E:\workspace\dubbo-frame\dubbo-provider\target\classes
+2018-10-26 23:35:02.771 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.conf_server_host: [127.0.0.1:8082]
+2018-10-26 23:35:02.772 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2018-10-26 23:35:02.772 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.app: disconf-test
+2018-10-26 23:35:02.772 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.env: rd
+2018-10-26 23:35:02.772 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2018-10-26 23:35:02.772 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.debug: false
+2018-10-26 23:35:02.772 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2018-10-26 23:35:02.772 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.ignore: []
+2018-10-26 23:35:02.773 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2018-10-26 23:35:02.773 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2018-10-26 23:35:04.882 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:35:04.962 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:35:04.978 [main] INFO -o.a.z.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2018-10-26 23:35:04.979 [main] INFO -o.a.z.ZooKeeper - Client environment:host.name=HOMDA45LQD5E77N
+2018-10-26 23:35:04.979 [main] INFO -o.a.z.ZooKeeper - Client environment:java.version=1.8.0_121
+2018-10-26 23:35:04.979 [main] INFO -o.a.z.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2018-10-26 23:35:04.979 [main] INFO -o.a.z.ZooKeeper - Client environment:java.home=E:\Java\jdk1.8.0_121\jre
+2018-10-26 23:35:04.979 [main] INFO -o.a.z.ZooKeeper - Client environment:java.class.path=C:\Users\Administrator\AppData\Local\Temp\classpath.jar;E:\JavaTools\ideaIC-2017.3.5.win\lib\rt\debugger-agent.jar
+2018-10-26 23:35:04.979 [main] INFO -o.a.z.ZooKeeper - Client environment:java.library.path=E:\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;.;E:\Java\jdk1.8.0_121/bin;E:\Java Tools\mysql-5.7.19-winx64\bin;E:\Java\apache-ant-1.9.9/bin;E:\Java Tools\apache-maven-3.5.0\bin;F:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\Program Files\Git\cmd;D:\Program Files\TortoiseGit\bin;E:\JavaTools\gradle-4.10-rc-2\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\Java\mysql-5.7.21-winx64\mysql-5.7.21-winx64\bin;E:\JavaTools\apache-maven-3.5.0\bin;.
+2018-10-26 23:35:04.979 [main] INFO -o.a.z.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2018-10-26 23:35:04.980 [main] INFO -o.a.z.ZooKeeper - Client environment:java.compiler=<NA>
+2018-10-26 23:35:04.980 [main] INFO -o.a.z.ZooKeeper - Client environment:os.name=Windows 7
+2018-10-26 23:35:04.980 [main] INFO -o.a.z.ZooKeeper - Client environment:os.arch=amd64
+2018-10-26 23:35:04.980 [main] INFO -o.a.z.ZooKeeper - Client environment:os.version=6.1
+2018-10-26 23:35:04.980 [main] INFO -o.a.z.ZooKeeper - Client environment:user.name=Administrator
+2018-10-26 23:35:04.981 [main] INFO -o.a.z.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+2018-10-26 23:35:04.981 [main] INFO -o.a.z.ZooKeeper - Client environment:user.dir=E:\workspace\dubbo-frame
+2018-10-26 23:35:04.983 [main] INFO -o.a.z.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 sessionTimeout=10000 watcher=com.baidu.disconf.core.common.zookeeper.inner.ResilientActiveKeyValueStore@1d2644e3
+2018-10-26 23:35:05.025 [main-SendThread(127.0.0.1:2183)] INFO -o.a.z.ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:2183. Will not attempt to authenticate using SASL (unknown error)
+2018-10-26 23:35:05.027 [main-SendThread(127.0.0.1:2183)] INFO -o.a.z.ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:2183, initiating session
+2018-10-26 23:35:05.038 [main-SendThread(127.0.0.1:2183)] INFO -o.a.z.ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:2183, sessionid = 0x3669c647ccd0008, negotiated timeout = 10000
+2018-10-26 23:35:05.041 [main-EventThread] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zk SyncConnected
+2018-10-26 23:35:05.041 [main] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zookeeper: 127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 , connected.
+2018-10-26 23:35:05.042 [main] INFO -c.b.d.c.c.z.ZookeeperMgr - zoo prefix: /disconf
+2018-10-26 23:35:05.055 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2018-10-26 23:35:05.368 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:35:05.377 [main] INFO -o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:35:05.656 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2018-10-26 23:35:05.661 [main] INFO -c.b.d.c.DisconfMgr - Conf File Map: 
+disconf-file:	jdbc.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	additionalKeyMaps={jdbc.password=root, jdbc.username=root, jdbc.url=jdbc:mysql://127.0.0.1:3306/disconf?useUnicode=true&amp;characterEncoding=utf8, jdbc.driver=com.mysql.jdbc.Driver}
+	cls=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf-test&env=rd&key=jdbc.properties&type=0]
+
+2018-10-26 23:35:05.662 [main] INFO -c.b.d.c.DisconfMgr - Conf Item Map: 
+
+2018-10-26 23:35:05.662 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END *******************************
+2018-10-26 23:35:06.274 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2018-10-26 23:35:06.308 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} closed
+2018-10-26 23:35:06.308 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:35:06.314 [main] INFO -o.a.z.ZooKeeper - Session: 0x3669c647ccd0008 closed
+2018-10-26 23:35:06.314 [main-EventThread] INFO -o.a.z.ClientCnxn - EventThread shut down
+2018-10-26 23:35:06.315 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:35:06.324 [DubboShutdownHook] INFO -c.a.d.c.AbstractConfig -  [DUBBO] Run shutdown hook now., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:35:06.329 [DubboShutdownHook] INFO -c.a.d.r.s.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:37:24.067 [main] INFO -c.a.d.c.l.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-10-26 23:37:24.184 [main] INFO -c.a.d.c.Main -  [DUBBO] Use container type([spring]) to run dubbo serivce., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:37:24.350 [main] INFO -o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@65fb9ffc: startup date [Fri Oct 26 23:37:24 CST 2018]; root of context hierarchy
+2018-10-26 23:37:24.421 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-consumer.xml]
+2018-10-26 23:37:24.564 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-provider.xml]
+2018-10-26 23:37:24.739 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-resource.xml]
+2018-10-26 23:37:25.024 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2018-10-26 23:37:27.079 [main] INFO -c.b.d.c.c.ConfigMgr - Finer print: HOMDA45LQD5E77N_0_35509ed1-9a05-4cdf-a837-dd3c406286c5
+2018-10-26 23:37:27.086 [main] INFO -c.b.d.c.c.u.ClassLoaderUtil - classpath: E:\workspace\dubbo-frame\dubbo-provider\target\classes
+2018-10-26 23:37:27.112 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.conf_server_host: [127.0.0.1:8082]
+2018-10-26 23:37:27.113 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2018-10-26 23:37:27.113 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.app: disconf-test
+2018-10-26 23:37:27.113 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.env: rd
+2018-10-26 23:37:27.113 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2018-10-26 23:37:27.113 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.debug: false
+2018-10-26 23:37:27.114 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2018-10-26 23:37:27.114 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.ignore: []
+2018-10-26 23:37:27.114 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2018-10-26 23:37:27.114 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2018-10-26 23:37:29.375 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:37:29.494 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:37:29.511 [main] INFO -o.a.z.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2018-10-26 23:37:29.511 [main] INFO -o.a.z.ZooKeeper - Client environment:host.name=HOMDA45LQD5E77N
+2018-10-26 23:37:29.511 [main] INFO -o.a.z.ZooKeeper - Client environment:java.version=1.8.0_121
+2018-10-26 23:37:29.511 [main] INFO -o.a.z.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2018-10-26 23:37:29.512 [main] INFO -o.a.z.ZooKeeper - Client environment:java.home=E:\Java\jdk1.8.0_121\jre
+2018-10-26 23:37:29.512 [main] INFO -o.a.z.ZooKeeper - Client environment:java.class.path=C:\Users\Administrator\AppData\Local\Temp\classpath.jar;E:\JavaTools\ideaIC-2017.3.5.win\lib\rt\debugger-agent.jar
+2018-10-26 23:37:29.512 [main] INFO -o.a.z.ZooKeeper - Client environment:java.library.path=E:\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;.;E:\Java\jdk1.8.0_121/bin;E:\Java Tools\mysql-5.7.19-winx64\bin;E:\Java\apache-ant-1.9.9/bin;E:\Java Tools\apache-maven-3.5.0\bin;F:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\Program Files\Git\cmd;D:\Program Files\TortoiseGit\bin;E:\JavaTools\gradle-4.10-rc-2\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\Java\mysql-5.7.21-winx64\mysql-5.7.21-winx64\bin;E:\JavaTools\apache-maven-3.5.0\bin;.
+2018-10-26 23:37:29.512 [main] INFO -o.a.z.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2018-10-26 23:37:29.512 [main] INFO -o.a.z.ZooKeeper - Client environment:java.compiler=<NA>
+2018-10-26 23:37:29.512 [main] INFO -o.a.z.ZooKeeper - Client environment:os.name=Windows 7
+2018-10-26 23:37:29.512 [main] INFO -o.a.z.ZooKeeper - Client environment:os.arch=amd64
+2018-10-26 23:37:29.512 [main] INFO -o.a.z.ZooKeeper - Client environment:os.version=6.1
+2018-10-26 23:37:29.513 [main] INFO -o.a.z.ZooKeeper - Client environment:user.name=Administrator
+2018-10-26 23:37:29.513 [main] INFO -o.a.z.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+2018-10-26 23:37:29.513 [main] INFO -o.a.z.ZooKeeper - Client environment:user.dir=E:\workspace\dubbo-frame
+2018-10-26 23:37:29.514 [main] INFO -o.a.z.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 sessionTimeout=10000 watcher=com.baidu.disconf.core.common.zookeeper.inner.ResilientActiveKeyValueStore@6f63c44f
+2018-10-26 23:37:29.555 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:2182. Will not attempt to authenticate using SASL (unknown error)
+2018-10-26 23:37:29.557 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:2182, initiating session
+2018-10-26 23:37:29.569 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:2182, sessionid = 0x2669c6472e60009, negotiated timeout = 10000
+2018-10-26 23:37:29.571 [main-EventThread] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zk SyncConnected
+2018-10-26 23:37:29.572 [main] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zookeeper: 127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 , connected.
+2018-10-26 23:37:29.572 [main] INFO -c.b.d.c.c.z.ZookeeperMgr - zoo prefix: /disconf
+2018-10-26 23:37:29.585 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2018-10-26 23:37:29.879 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:37:29.886 [main] INFO -o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:37:30.186 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2018-10-26 23:37:30.191 [main] INFO -c.b.d.c.DisconfMgr - Conf File Map: 
+disconf-file:	jdbc.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	additionalKeyMaps={jdbc.password=root, jdbc.username=root, jdbc.url=jdbc:mysql://127.0.0.1:3306/disconf?useUnicode=true&amp;characterEncoding=utf8, jdbc.driver=com.mysql.jdbc.Driver}
+	cls=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf-test&env=rd&key=jdbc.properties&type=0]
+
+2018-10-26 23:37:30.191 [main] INFO -c.b.d.c.DisconfMgr - Conf Item Map: 
+
+2018-10-26 23:37:30.191 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END *******************************
+2018-10-26 23:37:30.968 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2018-10-26 23:37:31.148 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} closed
+2018-10-26 23:37:31.149 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:37:31.156 [main] INFO -o.a.z.ZooKeeper - Session: 0x2669c6472e60009 closed
+2018-10-26 23:37:31.156 [main-EventThread] INFO -o.a.z.ClientCnxn - EventThread shut down
+2018-10-26 23:37:31.157 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:37:31.166 [DubboShutdownHook] INFO -c.a.d.c.AbstractConfig -  [DUBBO] Run shutdown hook now., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:37:31.169 [DubboShutdownHook] INFO -c.a.d.r.s.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:38:45.481 [main] INFO -c.a.d.c.l.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-10-26 23:38:45.611 [main] INFO -c.a.d.c.Main -  [DUBBO] Use container type([spring]) to run dubbo serivce., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:38:45.774 [main] INFO -o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@65fb9ffc: startup date [Fri Oct 26 23:38:45 CST 2018]; root of context hierarchy
+2018-10-26 23:38:45.843 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-consumer.xml]
+2018-10-26 23:38:46.005 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-provider.xml]
+2018-10-26 23:38:46.176 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-resource.xml]
+2018-10-26 23:38:46.515 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2018-10-26 23:38:48.479 [main] INFO -c.b.d.c.c.ConfigMgr - Finer print: HOMDA45LQD5E77N_0_df444acb-520f-46f8-88ba-c3366cd8a4ba
+2018-10-26 23:38:48.485 [main] INFO -c.b.d.c.c.u.ClassLoaderUtil - classpath: E:\workspace\dubbo-frame\dubbo-provider\target\classes
+2018-10-26 23:38:48.513 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.conf_server_host: [127.0.0.1:8082]
+2018-10-26 23:38:48.513 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2018-10-26 23:38:48.513 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.app: disconf-test
+2018-10-26 23:38:48.513 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.env: rd
+2018-10-26 23:38:48.514 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2018-10-26 23:38:48.514 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.debug: false
+2018-10-26 23:38:48.514 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2018-10-26 23:38:48.515 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.ignore: []
+2018-10-26 23:38:48.515 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2018-10-26 23:38:48.515 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2018-10-26 23:38:50.613 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:38:50.699 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:38:50.715 [main] INFO -o.a.z.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2018-10-26 23:38:50.715 [main] INFO -o.a.z.ZooKeeper - Client environment:host.name=HOMDA45LQD5E77N
+2018-10-26 23:38:50.715 [main] INFO -o.a.z.ZooKeeper - Client environment:java.version=1.8.0_121
+2018-10-26 23:38:50.715 [main] INFO -o.a.z.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2018-10-26 23:38:50.716 [main] INFO -o.a.z.ZooKeeper - Client environment:java.home=E:\Java\jdk1.8.0_121\jre
+2018-10-26 23:38:50.716 [main] INFO -o.a.z.ZooKeeper - Client environment:java.class.path=C:\Users\Administrator\AppData\Local\Temp\classpath.jar;E:\JavaTools\ideaIC-2017.3.5.win\lib\rt\debugger-agent.jar
+2018-10-26 23:38:50.716 [main] INFO -o.a.z.ZooKeeper - Client environment:java.library.path=E:\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;.;E:\Java\jdk1.8.0_121/bin;E:\Java Tools\mysql-5.7.19-winx64\bin;E:\Java\apache-ant-1.9.9/bin;E:\Java Tools\apache-maven-3.5.0\bin;F:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\Program Files\Git\cmd;D:\Program Files\TortoiseGit\bin;E:\JavaTools\gradle-4.10-rc-2\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\Java\mysql-5.7.21-winx64\mysql-5.7.21-winx64\bin;E:\JavaTools\apache-maven-3.5.0\bin;.
+2018-10-26 23:38:50.716 [main] INFO -o.a.z.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2018-10-26 23:38:50.716 [main] INFO -o.a.z.ZooKeeper - Client environment:java.compiler=<NA>
+2018-10-26 23:38:50.716 [main] INFO -o.a.z.ZooKeeper - Client environment:os.name=Windows 7
+2018-10-26 23:38:50.716 [main] INFO -o.a.z.ZooKeeper - Client environment:os.arch=amd64
+2018-10-26 23:38:50.716 [main] INFO -o.a.z.ZooKeeper - Client environment:os.version=6.1
+2018-10-26 23:38:50.716 [main] INFO -o.a.z.ZooKeeper - Client environment:user.name=Administrator
+2018-10-26 23:38:50.717 [main] INFO -o.a.z.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+2018-10-26 23:38:50.717 [main] INFO -o.a.z.ZooKeeper - Client environment:user.dir=E:\workspace\dubbo-frame
+2018-10-26 23:38:50.718 [main] INFO -o.a.z.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 sessionTimeout=10000 watcher=com.baidu.disconf.core.common.zookeeper.inner.ResilientActiveKeyValueStore@1d2644e3
+2018-10-26 23:38:50.756 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:2182. Will not attempt to authenticate using SASL (unknown error)
+2018-10-26 23:38:50.757 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:2182, initiating session
+2018-10-26 23:38:50.769 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:2182, sessionid = 0x2669c6472e6000a, negotiated timeout = 10000
+2018-10-26 23:38:50.772 [main-EventThread] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zk SyncConnected
+2018-10-26 23:38:50.773 [main] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zookeeper: 127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 , connected.
+2018-10-26 23:38:50.773 [main] INFO -c.b.d.c.c.z.ZookeeperMgr - zoo prefix: /disconf
+2018-10-26 23:38:50.786 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2018-10-26 23:38:51.085 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:38:51.099 [main] INFO -o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:38:51.387 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2018-10-26 23:38:51.393 [main] INFO -c.b.d.c.DisconfMgr - Conf File Map: 
+disconf-file:	jdbc.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	additionalKeyMaps={jdbc.password=root, jdbc.username=root, jdbc.url=jdbc:mysql://127.0.0.1:3306/disconf?useUnicode=true&amp;characterEncoding=utf8, jdbc.driver=com.mysql.jdbc.Driver}
+	cls=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf-test&env=rd&key=jdbc.properties&type=0]
+
+2018-10-26 23:38:51.393 [main] INFO -c.b.d.c.DisconfMgr - Conf Item Map: 
+
+2018-10-26 23:38:51.394 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END *******************************
+2018-10-26 23:38:52.107 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2018-10-26 23:38:52.318 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} closed
+2018-10-26 23:38:52.318 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:38:52.366 [main] INFO -o.a.z.ZooKeeper - Session: 0x2669c6472e6000a closed
+2018-10-26 23:38:52.367 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:38:52.369 [main-EventThread] INFO -o.a.z.ClientCnxn - EventThread shut down
+2018-10-26 23:38:52.384 [DubboShutdownHook] INFO -c.a.d.c.AbstractConfig -  [DUBBO] Run shutdown hook now., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:38:52.390 [DubboShutdownHook] INFO -c.a.d.r.s.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:57:26.236 [main] INFO -c.a.d.c.l.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-10-26 23:57:26.331 [main] INFO -c.a.d.c.Main -  [DUBBO] Use container type([spring]) to run dubbo serivce., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:57:26.497 [main] INFO -o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@65fb9ffc: startup date [Fri Oct 26 23:57:26 CST 2018]; root of context hierarchy
+2018-10-26 23:57:26.578 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-consumer.xml]
+2018-10-26 23:57:26.733 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-provider.xml]
+2018-10-26 23:57:26.907 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-resource.xml]
+2018-10-26 23:57:27.217 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2018-10-26 23:57:29.340 [main] INFO -c.b.d.c.c.ConfigMgr - Finer print: HOMDA45LQD5E77N_0_f4b7f96b-8c73-4a5e-a0f6-d8cf1d62d19e
+2018-10-26 23:57:29.345 [main] INFO -c.b.d.c.c.u.ClassLoaderUtil - classpath: E:\workspace\dubbo-frame\dubbo-provider\target\classes
+2018-10-26 23:57:29.373 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.conf_server_host: [127.0.0.1:8082]
+2018-10-26 23:57:29.373 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2018-10-26 23:57:29.373 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.app: disconf-test
+2018-10-26 23:57:29.373 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.env: rd
+2018-10-26 23:57:29.373 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2018-10-26 23:57:29.373 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.debug: false
+2018-10-26 23:57:29.374 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2018-10-26 23:57:29.374 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.ignore: []
+2018-10-26 23:57:29.374 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2018-10-26 23:57:29.374 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2018-10-26 23:57:31.453 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:57:31.559 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:57:31.577 [main] INFO -o.a.z.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2018-10-26 23:57:31.577 [main] INFO -o.a.z.ZooKeeper - Client environment:host.name=HOMDA45LQD5E77N
+2018-10-26 23:57:31.577 [main] INFO -o.a.z.ZooKeeper - Client environment:java.version=1.8.0_121
+2018-10-26 23:57:31.577 [main] INFO -o.a.z.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2018-10-26 23:57:31.577 [main] INFO -o.a.z.ZooKeeper - Client environment:java.home=E:\Java\jdk1.8.0_121\jre
+2018-10-26 23:57:31.578 [main] INFO -o.a.z.ZooKeeper - Client environment:java.class.path=C:\Users\Administrator\AppData\Local\Temp\classpath.jar;E:\JavaTools\ideaIC-2017.3.5.win\lib\rt\debugger-agent.jar
+2018-10-26 23:57:31.578 [main] INFO -o.a.z.ZooKeeper - Client environment:java.library.path=E:\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;.;E:\Java\jdk1.8.0_121/bin;E:\Java Tools\mysql-5.7.19-winx64\bin;E:\Java\apache-ant-1.9.9/bin;E:\Java Tools\apache-maven-3.5.0\bin;F:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\Program Files\Git\cmd;D:\Program Files\TortoiseGit\bin;E:\JavaTools\gradle-4.10-rc-2\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\Java\mysql-5.7.21-winx64\mysql-5.7.21-winx64\bin;E:\JavaTools\apache-maven-3.5.0\bin;.
+2018-10-26 23:57:31.578 [main] INFO -o.a.z.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2018-10-26 23:57:31.578 [main] INFO -o.a.z.ZooKeeper - Client environment:java.compiler=<NA>
+2018-10-26 23:57:31.578 [main] INFO -o.a.z.ZooKeeper - Client environment:os.name=Windows 7
+2018-10-26 23:57:31.578 [main] INFO -o.a.z.ZooKeeper - Client environment:os.arch=amd64
+2018-10-26 23:57:31.578 [main] INFO -o.a.z.ZooKeeper - Client environment:os.version=6.1
+2018-10-26 23:57:31.578 [main] INFO -o.a.z.ZooKeeper - Client environment:user.name=Administrator
+2018-10-26 23:57:31.578 [main] INFO -o.a.z.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+2018-10-26 23:57:31.578 [main] INFO -o.a.z.ZooKeeper - Client environment:user.dir=E:\workspace\dubbo-frame
+2018-10-26 23:57:31.579 [main] INFO -o.a.z.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 sessionTimeout=10000 watcher=com.baidu.disconf.core.common.zookeeper.inner.ResilientActiveKeyValueStore@2e6ba49a
+2018-10-26 23:57:31.617 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:2182. Will not attempt to authenticate using SASL (unknown error)
+2018-10-26 23:57:31.619 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:2182, initiating session
+2018-10-26 23:57:31.632 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:2182, sessionid = 0x2669c6472e6000b, negotiated timeout = 10000
+2018-10-26 23:57:31.636 [main-EventThread] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zk SyncConnected
+2018-10-26 23:57:31.636 [main] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zookeeper: 127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 , connected.
+2018-10-26 23:57:31.636 [main] INFO -c.b.d.c.c.z.ZookeeperMgr - zoo prefix: /disconf
+2018-10-26 23:57:31.649 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2018-10-26 23:57:31.966 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:57:31.974 [main] INFO -o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:57:32.296 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2018-10-26 23:57:32.303 [main] INFO -c.b.d.c.DisconfMgr - Conf File Map: 
+disconf-file:	jdbc.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	additionalKeyMaps={jdbc.password=root, jdbc.username=root, jdbc.url=jdbc:mysql://127.0.0.1:3306/disconf?useUnicode=true&amp;characterEncoding=utf8, jdbc.driver=com.mysql.jdbc.Driver}
+	cls=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf-test&env=rd&key=jdbc.properties&type=0]
+
+2018-10-26 23:57:32.303 [main] INFO -c.b.d.c.DisconfMgr - Conf Item Map: 
+
+2018-10-26 23:57:32.303 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END *******************************
+2018-10-26 23:57:33.144 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2018-10-26 23:57:33.208 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} closed
+2018-10-26 23:57:33.208 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:57:33.217 [main] INFO -o.a.z.ZooKeeper - Session: 0x2669c6472e6000b closed
+2018-10-26 23:57:33.218 [main-EventThread] INFO -o.a.z.ClientCnxn - EventThread shut down
+2018-10-26 23:57:33.218 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:57:33.225 [DubboShutdownHook] INFO -c.a.d.c.AbstractConfig -  [DUBBO] Run shutdown hook now., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:57:33.233 [DubboShutdownHook] INFO -c.a.d.r.s.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:58:09.521 [main] INFO -c.a.d.c.l.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-10-26 23:58:09.639 [main] INFO -c.a.d.c.Main -  [DUBBO] Use container type([spring]) to run dubbo serivce., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:58:09.816 [main] INFO -o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@65fb9ffc: startup date [Fri Oct 26 23:58:09 CST 2018]; root of context hierarchy
+2018-10-26 23:58:09.886 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-consumer.xml]
+2018-10-26 23:58:10.044 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-provider.xml]
+2018-10-26 23:58:10.216 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-resource.xml]
+2018-10-26 23:58:10.506 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2018-10-26 23:58:12.588 [main] INFO -c.b.d.c.c.ConfigMgr - Finer print: HOMDA45LQD5E77N_0_af1d013c-30f8-4f58-a922-b64138a77c2f
+2018-10-26 23:58:12.592 [main] INFO -c.b.d.c.c.u.ClassLoaderUtil - classpath: E:\workspace\dubbo-frame\dubbo-provider\target\classes
+2018-10-26 23:58:12.617 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.conf_server_host: [127.0.0.1:8082]
+2018-10-26 23:58:12.617 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2018-10-26 23:58:12.617 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.app: disconf-test
+2018-10-26 23:58:12.617 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.env: rd
+2018-10-26 23:58:12.617 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2018-10-26 23:58:12.618 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.debug: false
+2018-10-26 23:58:12.618 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2018-10-26 23:58:12.618 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.ignore: []
+2018-10-26 23:58:12.618 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2018-10-26 23:58:12.619 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2018-10-26 23:58:14.771 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:58:14.872 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:58:14.888 [main] INFO -o.a.z.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2018-10-26 23:58:14.888 [main] INFO -o.a.z.ZooKeeper - Client environment:host.name=HOMDA45LQD5E77N
+2018-10-26 23:58:14.888 [main] INFO -o.a.z.ZooKeeper - Client environment:java.version=1.8.0_121
+2018-10-26 23:58:14.888 [main] INFO -o.a.z.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2018-10-26 23:58:14.888 [main] INFO -o.a.z.ZooKeeper - Client environment:java.home=E:\Java\jdk1.8.0_121\jre
+2018-10-26 23:58:14.888 [main] INFO -o.a.z.ZooKeeper - Client environment:java.class.path=C:\Users\Administrator\AppData\Local\Temp\classpath.jar;E:\JavaTools\ideaIC-2017.3.5.win\lib\rt\debugger-agent.jar
+2018-10-26 23:58:14.888 [main] INFO -o.a.z.ZooKeeper - Client environment:java.library.path=E:\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;.;E:\Java\jdk1.8.0_121/bin;E:\Java Tools\mysql-5.7.19-winx64\bin;E:\Java\apache-ant-1.9.9/bin;E:\Java Tools\apache-maven-3.5.0\bin;F:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\Program Files\Git\cmd;D:\Program Files\TortoiseGit\bin;E:\JavaTools\gradle-4.10-rc-2\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\Java\mysql-5.7.21-winx64\mysql-5.7.21-winx64\bin;E:\JavaTools\apache-maven-3.5.0\bin;.
+2018-10-26 23:58:14.888 [main] INFO -o.a.z.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2018-10-26 23:58:14.889 [main] INFO -o.a.z.ZooKeeper - Client environment:java.compiler=<NA>
+2018-10-26 23:58:14.889 [main] INFO -o.a.z.ZooKeeper - Client environment:os.name=Windows 7
+2018-10-26 23:58:14.889 [main] INFO -o.a.z.ZooKeeper - Client environment:os.arch=amd64
+2018-10-26 23:58:14.889 [main] INFO -o.a.z.ZooKeeper - Client environment:os.version=6.1
+2018-10-26 23:58:14.889 [main] INFO -o.a.z.ZooKeeper - Client environment:user.name=Administrator
+2018-10-26 23:58:14.889 [main] INFO -o.a.z.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+2018-10-26 23:58:14.889 [main] INFO -o.a.z.ZooKeeper - Client environment:user.dir=E:\workspace\dubbo-frame
+2018-10-26 23:58:14.891 [main] INFO -o.a.z.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 sessionTimeout=10000 watcher=com.baidu.disconf.core.common.zookeeper.inner.ResilientActiveKeyValueStore@2e6ba49a
+2018-10-26 23:58:14.930 [main-SendThread(127.0.0.1:2183)] INFO -o.a.z.ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:2183. Will not attempt to authenticate using SASL (unknown error)
+2018-10-26 23:58:14.932 [main-SendThread(127.0.0.1:2183)] INFO -o.a.z.ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:2183, initiating session
+2018-10-26 23:58:14.944 [main-SendThread(127.0.0.1:2183)] INFO -o.a.z.ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:2183, sessionid = 0x3669c647ccd0009, negotiated timeout = 10000
+2018-10-26 23:58:14.948 [main-EventThread] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zk SyncConnected
+2018-10-26 23:58:14.948 [main] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zookeeper: 127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 , connected.
+2018-10-26 23:58:14.948 [main] INFO -c.b.d.c.c.z.ZookeeperMgr - zoo prefix: /disconf
+2018-10-26 23:58:14.962 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2018-10-26 23:58:15.298 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:58:15.310 [main] INFO -o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:58:15.619 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2018-10-26 23:58:15.623 [main] INFO -c.b.d.c.DisconfMgr - Conf File Map: 
+disconf-file:	jdbc.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	additionalKeyMaps={jdbc.password=root, jdbc.username=root, jdbc.url=jdbc:mysql://127.0.0.1:3306/disconf?useUnicode=true&amp;characterEncoding=utf8, jdbc.driver=com.mysql.jdbc.Driver}
+	cls=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf-test&env=rd&key=jdbc.properties&type=0]
+
+2018-10-26 23:58:15.624 [main] INFO -c.b.d.c.DisconfMgr - Conf Item Map: 
+
+2018-10-26 23:58:15.624 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END *******************************
+2018-10-26 23:58:16.398 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2018-10-26 23:58:16.445 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} closed
+2018-10-26 23:58:16.446 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:58:16.455 [main-EventThread] INFO -o.a.z.ClientCnxn - EventThread shut down
+2018-10-26 23:58:16.455 [main] INFO -o.a.z.ZooKeeper - Session: 0x3669c647ccd0009 closed
+2018-10-26 23:58:16.457 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:58:16.466 [DubboShutdownHook] INFO -c.a.d.c.AbstractConfig -  [DUBBO] Run shutdown hook now., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:58:16.469 [DubboShutdownHook] INFO -c.a.d.r.s.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:58:58.078 [main] INFO -c.a.d.c.l.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-10-26 23:58:58.189 [main] INFO -c.a.d.c.Main -  [DUBBO] Use container type([spring]) to run dubbo serivce., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:58:58.373 [main] INFO -o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@65fb9ffc: startup date [Fri Oct 26 23:58:58 CST 2018]; root of context hierarchy
+2018-10-26 23:58:58.452 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-consumer.xml]
+2018-10-26 23:58:58.611 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-provider.xml]
+2018-10-26 23:58:58.787 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workspace\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-resource.xml]
+2018-10-26 23:58:59.125 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2018-10-26 23:59:01.237 [main] INFO -c.b.d.c.c.ConfigMgr - Finer print: HOMDA45LQD5E77N_0_0fe1cf5a-6d7e-4e2a-9182-53081e372c00
+2018-10-26 23:59:01.242 [main] INFO -c.b.d.c.c.u.ClassLoaderUtil - classpath: E:\workspace\dubbo-frame\dubbo-provider\target\classes
+2018-10-26 23:59:01.272 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.conf_server_host: [127.0.0.1:8082]
+2018-10-26 23:59:01.273 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2018-10-26 23:59:01.273 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.app: disconf-test
+2018-10-26 23:59:01.273 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.env: rd
+2018-10-26 23:59:01.273 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2018-10-26 23:59:01.273 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.debug: false
+2018-10-26 23:59:01.273 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2018-10-26 23:59:01.274 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.ignore: []
+2018-10-26 23:59:01.274 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2018-10-26 23:59:01.274 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2018-10-26 23:59:03.425 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:59:03.528 [main] INFO -c.b.d.c.c.u.h.HttpClientUtil - execute http request [null], status code [200]
+2018-10-26 23:59:03.547 [main] INFO -o.a.z.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2018-10-26 23:59:03.547 [main] INFO -o.a.z.ZooKeeper - Client environment:host.name=HOMDA45LQD5E77N
+2018-10-26 23:59:03.547 [main] INFO -o.a.z.ZooKeeper - Client environment:java.version=1.8.0_121
+2018-10-26 23:59:03.548 [main] INFO -o.a.z.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2018-10-26 23:59:03.548 [main] INFO -o.a.z.ZooKeeper - Client environment:java.home=E:\Java\jdk1.8.0_121\jre
+2018-10-26 23:59:03.548 [main] INFO -o.a.z.ZooKeeper - Client environment:java.class.path=C:\Users\Administrator\AppData\Local\Temp\classpath.jar;E:\JavaTools\ideaIC-2017.3.5.win\lib\rt\debugger-agent.jar
+2018-10-26 23:59:03.548 [main] INFO -o.a.z.ZooKeeper - Client environment:java.library.path=E:\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;.;E:\Java\jdk1.8.0_121/bin;E:\Java Tools\mysql-5.7.19-winx64\bin;E:\Java\apache-ant-1.9.9/bin;E:\Java Tools\apache-maven-3.5.0\bin;F:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\Program Files\Git\cmd;D:\Program Files\TortoiseGit\bin;E:\JavaTools\gradle-4.10-rc-2\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\Java\mysql-5.7.21-winx64\mysql-5.7.21-winx64\bin;E:\JavaTools\apache-maven-3.5.0\bin;.
+2018-10-26 23:59:03.548 [main] INFO -o.a.z.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2018-10-26 23:59:03.548 [main] INFO -o.a.z.ZooKeeper - Client environment:java.compiler=<NA>
+2018-10-26 23:59:03.548 [main] INFO -o.a.z.ZooKeeper - Client environment:os.name=Windows 7
+2018-10-26 23:59:03.549 [main] INFO -o.a.z.ZooKeeper - Client environment:os.arch=amd64
+2018-10-26 23:59:03.549 [main] INFO -o.a.z.ZooKeeper - Client environment:os.version=6.1
+2018-10-26 23:59:03.549 [main] INFO -o.a.z.ZooKeeper - Client environment:user.name=Administrator
+2018-10-26 23:59:03.549 [main] INFO -o.a.z.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+2018-10-26 23:59:03.549 [main] INFO -o.a.z.ZooKeeper - Client environment:user.dir=E:\workspace\dubbo-frame
+2018-10-26 23:59:03.551 [main] INFO -o.a.z.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 sessionTimeout=10000 watcher=com.baidu.disconf.core.common.zookeeper.inner.ResilientActiveKeyValueStore@2e6ba49a
+2018-10-26 23:59:03.588 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:2182. Will not attempt to authenticate using SASL (unknown error)
+2018-10-26 23:59:03.591 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:2182, initiating session
+2018-10-26 23:59:03.602 [main-SendThread(127.0.0.1:2182)] INFO -o.a.z.ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:2182, sessionid = 0x2669c6472e6000c, negotiated timeout = 10000
+2018-10-26 23:59:03.605 [main-EventThread] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zk SyncConnected
+2018-10-26 23:59:03.605 [main] INFO -c.b.d.c.c.z.i.ConnectionWatcher - zookeeper: 127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 , connected.
+2018-10-26 23:59:03.605 [main] INFO -c.b.d.c.c.z.ZookeeperMgr - zoo prefix: /disconf
+2018-10-26 23:59:03.617 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2018-10-26 23:59:03.973 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:59:03.983 [main] INFO -o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [jdbc.properties]
+2018-10-26 23:59:04.281 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2018-10-26 23:59:04.288 [main] INFO -c.b.d.c.DisconfMgr - Conf File Map: 
+disconf-file:	jdbc.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	additionalKeyMaps={jdbc.password=root, jdbc.username=root, jdbc.url=jdbc:mysql://127.0.0.1:3306/disconf?useUnicode=true&amp;characterEncoding=utf8, jdbc.driver=com.mysql.jdbc.Driver}
+	cls=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf-test&env=rd&key=jdbc.properties&type=0]
+
+2018-10-26 23:59:04.289 [main] INFO -c.b.d.c.DisconfMgr - Conf Item Map: 
+
+2018-10-26 23:59:04.290 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END *******************************
+2018-10-26 23:59:05.014 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2018-10-26 23:59:05.057 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} closed
+2018-10-26 23:59:05.057 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:59:05.063 [main] INFO -o.a.z.ZooKeeper - Session: 0x2669c6472e6000c closed
+2018-10-26 23:59:05.063 [main-EventThread] INFO -o.a.z.ClientCnxn - EventThread shut down
+2018-10-26 23:59:05.064 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-10-26 23:59:05.072 [DubboShutdownHook] INFO -c.a.d.c.AbstractConfig -  [DUBBO] Run shutdown hook now., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-10-26 23:59:05.075 [DubboShutdownHook] INFO -c.a.d.r.s.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.8.4, current host: 127.0.0.1

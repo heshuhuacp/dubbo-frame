@@ -91,7 +91,7 @@
 
     <root level="INFO">
         <appender-ref ref="console" />
-        <appender-ref ref="debug" />
+        <appender-ref ref="info" />
         <appender-ref ref="infolog_async" />
         <appender-ref ref="errorlog_async" />
     </root>

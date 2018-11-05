@@ -14,7 +14,7 @@
         <property name="targetMethod" value="initLogging" />
         <property name="arguments">
             <list>
-                <value>classpath:lobback.xml</value>
+                <value>classpath:logback.xml</value>
             </list>
         </property>
     </bean>
@@ -34,11 +34,12 @@
         <property name="locations">
             <list>
                 <!--多个动态配置配置在这里-->
+                <!--<value>classpath:redis.properties</value>-->
+                <value>classpath:jdbc.properties</value>
                 <value>classpath:system.properties</value>
             </list>
         </property>
     </bean>
-
     <bean class="com.baidu.disconf.client.addons.properties.ReloadingPropertyPlaceholderConfigurer"
           id="propertyConfigurer">
         <property name="ignoreResourceNotFound" value="true"/>
@@ -49,6 +50,71 @@
             </list>
         </property>
     </bean>
+
+    <!-- 引入配置文件,这样 -->
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
+          id="defaultProperty">
+        <property name="locations">
+            <list>
+                <!--配置文件需要在spring采用占位符替换，则需要再次在这里加载配置-->
+                <!--<value>classpath:redis.properties</value>-->
+                <!--<value>classpath:jdbc.properties</value>-->
+                <!--<value>classpath:kafka.properties</value>-->
+                <!--<value>classpath:dubbo.properties</value>-->
+                <!--<value>classpath:system.properties</value>-->
+            </list>
+        </property>
+    </bean>
+
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}" />
+        <property name="username" value="${jdbc.username}" />
+        <property name="password" value="${jdbc.password}" />
+
+        <property name="filters" value="stat" />
+
+        <property name="maxActive" value="20" />
+        <property name="initialSize" value="1" />
+        <property name="maxWait" value="60000" />
+        <property name="minIdle" value="1" />
+
+        <property name="timeBetweenEvictionRunsMillis" value="60000"/>
+        <property name="minEvictableIdleTimeMillis" value="300000"/>
+
+        <property name="validationQuery" value="SELECT 'x'" />
+        <property name="testWhileIdle" value="true" />
+        <property name="testOnBorrow" value="false" />
+        <property name="testOnReturn" value="false" />
+
+        <property name="poolPreparedStatements" value="true" />
+        <property name="maxPoolPreparedStatementPerConnectionSize" value="50"/>
+    </bean>
+
+    <!-- spring和MyBatis完美整合，不需要mybatis的配置映射文件 -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <!-- 自动扫描mapping.xml文件 -->
+        <property name="mapperLocations" value="classpath*:mybatis/mapper/*Mapper.xml"/>
+        <!--<property name="configLocation" value="classpath*:mybatis-config.xml" />-->
+    </bean>
+
+    <!-- 扫描mybatis映射接口类 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.hsh.mapper"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+
+    <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate" destroy-method="close" scope="prototype">
+        <constructor-arg index="0" ref="sqlSessionFactory" />
+    </bean>
+
+    <!-- (事务管理)transaction manager, use JtaTransactionManager for global tx -->
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
 
 
 

@@ -15,7 +15,7 @@
       <module name="dubbo-consumer" target="1.5" />
       <module name="dubbo-frame" target="1.5" />
       <module name="dubbo-interface" target="1.5" />
-      <module name="dubbo-provider" target="1.5" />
+      <module name="dubbo-provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -12,7 +12,7 @@ public class ConsumerMain {
         context.start();
         DemoService demoService = (DemoService)context.getBean("demoService"); // 获取远程服务代理
         long beginTime = System.currentTimeMillis();
-        Map<String, Object> resultMap = demoService.sayHello("world"); // 执行远程方法
+        Map<String, Object> resultMap = demoService.sayHello("1"); // 执行远程方法
         long endTime = System.currentTimeMillis();
         System.out.println("consumer receiver:"+ resultMap.get("result")+",耗费时间：" + (endTime- beginTime)); // 显示调用结果
     }

@@ -1,2 +1,3 @@
 com\hsh\service\impl\DemoServiceImpl.class
+com\hsh\mapper\UserMapper.class
 ServerMain.class
