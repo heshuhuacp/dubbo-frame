@@ -1,5 +1,1 @@
-# dubbo-frame
-spring+dubbox框架整合
-
-#20181019 新增disconf配置中心客户端代码
-#20181105 集成mybatis
+微服务框架Dubbox，集成了分布式配置中心disconf，Druid数据源，ORM框架用的Mybatis；日志输出用的logbak
