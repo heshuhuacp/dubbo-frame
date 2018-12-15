@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5720bd9e-9ba4-4512-92f8-9e1c668527d0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/hsh/hystrix/command/GetUserInfoCommand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/hsh/hystrix/command/GetUserInfoObservableCommand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dubbo-interface/src/main/java/com/hsh/model/UserDTO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dubbo-interface/src/main/java/com/hsh/service/UserService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/hsh/service/impl/UserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/disconf/download2/jdbc.properties" afterPath="$PROJECT_DIR$/disconf/download2/jdbc.properties" />
-      <change beforePath="$PROJECT_DIR$/dubbo-consumer/pom.xml" afterPath="$PROJECT_DIR$/dubbo-consumer/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/ConsumerMain.java" afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/ConsumerMain.java" />
-      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/META-INF.spring/spring-dubbo-consumer.xml" afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/META-INF.spring/spring-dubbo-consumer.xml" />
-      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/ConsumerMain.class" afterPath="$PROJECT_DIR$/dubbo-consumer/target/classes/ConsumerMain.class" />
-      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/META-INF.spring/spring-dubbo-consumer.xml" afterPath="$PROJECT_DIR$/dubbo-consumer/target/classes/META-INF.spring/spring-dubbo-consumer.xml" />
-      <change beforePath="$PROJECT_DIR$/dubbo-interface/pom.xml" afterPath="$PROJECT_DIR$/dubbo-interface/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/dubbo-interface/src/main/java/com/hsh/service/DemoService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dubbo-interface/target/classes/com/hsh/service/DemoService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/pom.xml" afterPath="$PROJECT_DIR$/dubbo-provider/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/hsh/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/hsh/mapper/UserMapper.java" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/hsh/model/User.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/hsh/service/impl/DemoServiceImpl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/resources/META-INF/spring/spring-dubbo-provider.xml" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/resources/META-INF/spring/spring-dubbo-provider.xml" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/resources/mybatis/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/resources/mybatis/mapper/UserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/META-INF/spring/spring-dubbo-provider.xml" afterPath="$PROJECT_DIR$/dubbo-provider/target/classes/META-INF/spring/spring-dubbo-provider.xml" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/com/hsh/service/impl/DemoServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/disconf.properties" afterPath="$PROJECT_DIR$/dubbo-provider/target/classes/disconf.properties" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/system.properties" afterPath="$PROJECT_DIR$/dubbo-provider/target/classes/system.properties" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/system.properties.lock" afterPath="" />
-    </list>
+    <list default="true" id="5720bd9e-9ba4-4512-92f8-9e1c668527d0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-interface/target/" />
@@ -988,7 +962,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64144737" sideWeight="0.11195159" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11422088" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24342105" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2911184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />

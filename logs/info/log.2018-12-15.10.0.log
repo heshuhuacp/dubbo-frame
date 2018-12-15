@@ -1,0 +1,125 @@
+2018-12-15 10:45:01.811 [main] INFO -c.a.d.c.l.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-12-15 10:45:01.875 [main] INFO -c.a.d.c.Main -  [DUBBO] Use container type([spring]) to run dubbo serivce., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-12-15 10:45:02.015 [main] INFO -o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13a5fe33: startup date [Sat Dec 15 10:45:02 CST 2018]; root of context hierarchy
+2018-12-15 10:45:02.116 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [F:\workspaces\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-consumer.xml]
+2018-12-15 10:45:02.290 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [F:\workspaces\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-provider.xml]
+2018-12-15 10:45:02.451 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [F:\workspaces\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-resource.xml]
+2018-12-15 10:45:02.750 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2018-12-15 10:45:04.796 [main] INFO -c.b.d.c.c.ConfigMgr - Finer print: HOMDA45LQD5E77N_0_2f0f8609-28a7-45c4-bf66-b4721d28241e
+2018-12-15 10:45:04.800 [main] INFO -c.b.d.c.c.u.ClassLoaderUtil - classpath: F:\workspaces\dubbo-frame\dubbo-provider\target\classes
+2018-12-15 10:45:04.819 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.conf_server_host: [127.0.0.1:8082]
+2018-12-15 10:45:04.819 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2018-12-15 10:45:04.819 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.app: disconf-test
+2018-12-15 10:45:04.819 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.env: rd
+2018-12-15 10:45:04.820 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2018-12-15 10:45:04.820 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.debug: false
+2018-12-15 10:45:04.820 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2018-12-15 10:45:04.820 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.ignore: []
+2018-12-15 10:45:04.820 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2018-12-15 10:45:04.821 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2018-12-15 10:45:10.148 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2018-12-15 10:45:16.497 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [jdbc.properties]
+2018-12-15 10:45:16.498 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [system.properties]
+2018-12-15 10:45:16.573 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-12-15 10:45:16.581 [DubboShutdownHook] INFO -c.a.d.c.AbstractConfig -  [DUBBO] Run shutdown hook now., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-12-15 10:45:16.582 [DubboShutdownHook] INFO -c.a.d.r.s.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.8.4, current host: 127.0.0.1
+2018-12-15 10:46:26.734 [main] INFO -c.a.d.c.l.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-12-15 10:46:26.809 [main] INFO -c.a.d.c.Main -  [DUBBO] Use container type([spring]) to run dubbo serivce., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-12-15 10:46:26.977 [main] INFO -o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13a5fe33: startup date [Sat Dec 15 10:46:26 CST 2018]; root of context hierarchy
+2018-12-15 10:46:27.089 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [F:\workspaces\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-consumer.xml]
+2018-12-15 10:46:27.222 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [F:\workspaces\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-provider.xml]
+2018-12-15 10:46:27.381 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [F:\workspaces\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-resource.xml]
+2018-12-15 10:46:27.706 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2018-12-15 10:46:29.673 [main] INFO -c.b.d.c.c.ConfigMgr - Finer print: HOMDA45LQD5E77N_0_b4f7f203-ae70-4482-82a3-f94ec51134a2
+2018-12-15 10:46:29.682 [main] INFO -c.b.d.c.c.u.ClassLoaderUtil - classpath: F:\workspaces\dubbo-frame\dubbo-provider\target\classes
+2018-12-15 10:46:29.704 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.conf_server_host: [127.0.0.1:8082]
+2018-12-15 10:46:29.705 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2018-12-15 10:46:29.705 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.app: disconf-test
+2018-12-15 10:46:29.705 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.env: rd
+2018-12-15 10:46:29.705 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2018-12-15 10:46:29.705 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.debug: false
+2018-12-15 10:46:29.706 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2018-12-15 10:46:29.706 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.ignore: []
+2018-12-15 10:46:29.706 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2018-12-15 10:46:29.706 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2018-12-15 10:46:34.766 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2018-12-15 10:46:41.042 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [jdbc.properties]
+2018-12-15 10:46:41.043 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [system.properties]
+2018-12-15 10:46:41.140 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-12-15 10:46:41.143 [DubboShutdownHook] INFO -c.a.d.c.AbstractConfig -  [DUBBO] Run shutdown hook now., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-12-15 10:46:41.144 [DubboShutdownHook] INFO -c.a.d.r.s.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.8.4, current host: 127.0.0.1
+2018-12-15 10:47:44.363 [main] INFO -c.a.d.c.l.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-12-15 10:47:44.431 [main] INFO -c.a.d.c.Main -  [DUBBO] Use container type([spring]) to run dubbo serivce., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-12-15 10:47:44.589 [main] INFO -o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13a5fe33: startup date [Sat Dec 15 10:47:44 CST 2018]; root of context hierarchy
+2018-12-15 10:47:44.842 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [F:\workspaces\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-consumer.xml]
+2018-12-15 10:47:45.050 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [F:\workspaces\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-provider.xml]
+2018-12-15 10:47:45.751 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [F:\workspaces\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-resource.xml]
+2018-12-15 10:47:46.162 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2018-12-15 10:47:48.797 [main] INFO -c.b.d.c.c.ConfigMgr - Finer print: HOMDA45LQD5E77N_0_20e6b14d-2d95-4c89-a4ed-b62a61c26115
+2018-12-15 10:47:48.806 [main] INFO -c.b.d.c.c.u.ClassLoaderUtil - classpath: F:\workspaces\dubbo-frame\dubbo-provider\target\classes
+2018-12-15 10:47:48.825 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.conf_server_host: [127.0.0.1:8082]
+2018-12-15 10:47:48.826 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2018-12-15 10:47:48.826 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.app: disconf-test
+2018-12-15 10:47:48.826 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.env: rd
+2018-12-15 10:47:48.827 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2018-12-15 10:47:48.827 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.debug: false
+2018-12-15 10:47:48.828 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2018-12-15 10:47:48.828 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.ignore: []
+2018-12-15 10:47:48.828 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2018-12-15 10:47:48.829 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2018-12-15 10:47:55.148 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2018-12-15 10:48:01.783 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [jdbc.properties]
+2018-12-15 10:48:01.784 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [system.properties]
+2018-12-15 10:48:01.958 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-12-15 10:48:01.972 [DubboShutdownHook] INFO -c.a.d.c.AbstractConfig -  [DUBBO] Run shutdown hook now., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-12-15 10:48:01.974 [DubboShutdownHook] INFO -c.a.d.r.s.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.8.4, current host: 127.0.0.1
+2018-12-15 10:49:08.600 [main] INFO -c.a.d.c.l.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-12-15 10:49:08.662 [main] INFO -c.a.d.c.Main -  [DUBBO] Use container type([spring]) to run dubbo serivce., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-12-15 10:49:08.787 [main] INFO -o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13a5fe33: startup date [Sat Dec 15 10:49:08 CST 2018]; root of context hierarchy
+2018-12-15 10:49:08.860 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [F:\workspaces\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-consumer.xml]
+2018-12-15 10:49:08.987 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [F:\workspaces\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-provider.xml]
+2018-12-15 10:49:09.141 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [F:\workspaces\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-resource.xml]
+2018-12-15 10:49:09.409 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2018-12-15 10:49:11.699 [main] INFO -c.b.d.c.c.ConfigMgr - Finer print: HOMDA45LQD5E77N_0_1bf30205-8ad2-42fd-81d3-8c652ac363da
+2018-12-15 10:49:11.702 [main] INFO -c.b.d.c.c.u.ClassLoaderUtil - classpath: F:\workspaces\dubbo-frame\dubbo-provider\target\classes
+2018-12-15 10:49:11.719 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.conf_server_host: [127.0.0.1:8082]
+2018-12-15 10:49:11.719 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2018-12-15 10:49:11.719 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.app: disconf-test
+2018-12-15 10:49:11.719 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.env: rd
+2018-12-15 10:49:11.719 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2018-12-15 10:49:11.719 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.debug: false
+2018-12-15 10:49:11.720 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2018-12-15 10:49:11.720 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.ignore: []
+2018-12-15 10:49:11.720 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2018-12-15 10:49:11.720 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2018-12-15 10:49:16.844 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2018-12-15 10:49:23.095 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [jdbc.properties]
+2018-12-15 10:49:23.096 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [system.properties]
+2018-12-15 10:49:23.448 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-12-15 10:49:23.456 [DubboShutdownHook] INFO -c.a.d.c.AbstractConfig -  [DUBBO] Run shutdown hook now., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-12-15 10:49:23.458 [DubboShutdownHook] INFO -c.a.d.r.s.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.8.4, current host: 127.0.0.1
+2018-12-15 10:53:26.232 [main] INFO -c.a.d.c.l.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-12-15 10:53:26.311 [main] INFO -c.a.d.c.Main -  [DUBBO] Use container type([spring]) to run dubbo serivce., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-12-15 10:53:26.463 [main] INFO -o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13a5fe33: startup date [Sat Dec 15 10:53:26 CST 2018]; root of context hierarchy
+2018-12-15 10:53:26.546 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [F:\workspaces\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-consumer.xml]
+2018-12-15 10:53:26.677 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [F:\workspaces\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-dubbo-provider.xml]
+2018-12-15 10:53:26.849 [main] INFO -o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [F:\workspaces\dubbo-frame\dubbo-provider\target\classes\META-INF\spring\spring-resource.xml]
+2018-12-15 10:53:27.097 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2018-12-15 10:53:29.074 [main] INFO -c.b.d.c.c.ConfigMgr - Finer print: HOMDA45LQD5E77N_0_43ac242a-c24b-474d-9083-ae45208ada67
+2018-12-15 10:53:29.078 [main] INFO -c.b.d.c.c.u.ClassLoaderUtil - classpath: F:\workspaces\dubbo-frame\dubbo-provider\target\classes
+2018-12-15 10:53:29.091 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.conf_server_host: [127.0.0.1:8082]
+2018-12-15 10:53:29.091 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2018-12-15 10:53:29.091 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.app: disconf-test
+2018-12-15 10:53:29.091 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.env: rd
+2018-12-15 10:53:29.092 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: false
+2018-12-15 10:53:29.092 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.debug: false
+2018-12-15 10:53:29.092 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2018-12-15 10:53:29.092 [main] INFO -c.b.d.c.c.i.DisInnerConfigHelper - SERVER disconf.ignore: []
+2018-12-15 10:53:29.093 [main] INFO -c.b.d.c.c.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2018-12-15 10:53:29.093 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2018-12-15 10:53:30.988 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2018-12-15 10:53:31.201 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [jdbc.properties]
+2018-12-15 10:53:31.203 [main] INFO -c.b.d.c.a.p.ReloadablePropertiesFactoryBean - Loading properties file from class path resource [system.properties]
+2018-12-15 10:53:31.487 [main] INFO -c.b.d.c.DisconfMgr - ******************************* DISCONF CLOSE *******************************
+2018-12-15 10:53:31.491 [DubboShutdownHook] INFO -c.a.d.c.AbstractConfig -  [DUBBO] Run shutdown hook now., dubbo version: 2.8.4, current host: 127.0.0.1
+2018-12-15 10:53:31.493 [DubboShutdownHook] INFO -c.a.d.r.s.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.8.4, current host: 127.0.0.1
