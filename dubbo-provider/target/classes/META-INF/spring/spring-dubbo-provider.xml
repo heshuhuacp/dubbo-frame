@@ -8,6 +8,6 @@
 
     <!-- 声明需要暴露的服务接口 -->
     <dubbo:protocol name="rest" server="tomcat" port="${rest.port}" threads="500" accepts="500" contextpath="dubboDemo" />
-    <dubbo:service protocol="dubbo"  timeout="5000" interface="com.hsh.service.DemoService" ref="demoService"/>
-    <dubbo:service protocol="rest"  timeout="5000" interface="com.hsh.service.DemoService" ref="demoService"/>
+    <dubbo:service protocol="dubbo"  timeout="5000" interface="com.hsh.service.UserService" ref="userService"/>
+    <dubbo:service protocol="rest"  timeout="5000" interface="com.hsh.service.UserService" ref="userService"/>
 </beans>

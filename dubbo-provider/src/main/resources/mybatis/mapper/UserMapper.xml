@@ -7,8 +7,12 @@
 这里把mapper标签和接口联系在一起了，namespace=写接口路径，映射文件要和接口在同一目录下
  -->
 <mapper namespace="com.hsh.mapper.UserMapper">
-    <select id="getUserById" resultType="com.hsh.model.User">
+    <select id="getUserById" resultType="com.hsh.model.UserDTO">
         select * from user_main where userId=#{userId}
+    </select>
+
+    <select id="getUsersByProvince" resultType="com.hsh.model.UserDTO">
+        select * from user_main where
     </select>
 
 </mapper>

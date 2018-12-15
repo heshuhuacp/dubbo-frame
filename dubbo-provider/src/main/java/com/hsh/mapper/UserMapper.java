@@ -1,11 +1,15 @@
 package com.hsh.mapper;
 
-import com.hsh.model.User;
+import com.hsh.model.UserDTO;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 @Mapper
 public interface UserMapper {
 
-    User getUserById(@Param("userId") String userId);
+    UserDTO getUserById(@Param("userId") Integer userId);
+
+    List<UserDTO> getUsersByProvince(@Param("province") String province);
 }

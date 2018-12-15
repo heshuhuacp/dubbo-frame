@@ -18,6 +18,9 @@
         <commonsLogging.version>1.2</commonsLogging.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <hystrix.version>1.5.11</hystrix.version>
+        <hystrix.metrics.event.stream.version>1.5.11</hystrix.metrics.event.stream.version>
+        <hystrix.javanica.version>1.5.11</hystrix.javanica.version>
     </properties>
 
     <dependencies>
@@ -253,7 +256,21 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.44</version>
         </dependency>
-        <!--*****************************mybatis相关依赖******************************-->
+        <dependency>
+            <groupId>com.netflix.hystrix</groupId>
+            <artifactId>hystrix-core</artifactId>
+            <version>${hystrix.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.netflix.hystrix</groupId>
+            <artifactId>hystrix-metrics-event-stream</artifactId>
+            <version>${hystrix.metrics.event.stream.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.netflix.hystrix</groupId>
+            <artifactId>hystrix-javanica</artifactId>
+            <version>${hystrix.javanica.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
